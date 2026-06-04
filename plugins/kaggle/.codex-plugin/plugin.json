@@ -3,14 +3,14 @@
   "version": "0.1.0",
   "description": "Codex workflows for working with Kaggle notebooks, kernels, datasets, logs, and GPU validation runs.",
   "author": {
-    "name": "Local developer"
+    "name": "Ivan Litvak"
   },
   "skills": "./skills/",
   "interface": {
     "displayName": "Kaggle",
     "shortDescription": "Operate Kaggle runs from Codex.",
     "longDescription": "Kaggle provides Codex instructions for working with Kaggle notebooks and GPU kernels: prepare notebook configs, push and monitor kernels through the Kaggle CLI, handle 2xT4 validation, stream and download logs, avoid accidental source export, and preserve project-specific diagnostic discipline.",
-    "developerName": "Local developer",
+    "developerName": "Ivan Litvak",
     "category": "Productivity",
     "capabilities": [
       "kaggle-cli",
