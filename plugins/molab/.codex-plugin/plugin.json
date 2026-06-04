@@ -3,14 +3,14 @@
     "version":  "0.1.0",
     "description":  "Codex workflows for working with Molab / marimo GPU notebooks through the in-app browser.",
     "author":  {
-                   "name":  "Local developer"
+                   "name":  "Ivan Litvak"
                },
     "skills":  "./skills/",
     "interface":  {
                       "displayName":  "Molab",
                       "shortDescription":  "Operate Molab notebooks from Codex.",
                       "longDescription":  "Molab provides Codex instructions for using the in-app browser with molab.marimo.io sessions: open and inspect notebooks, avoid leaking session tokens, run or prepare cells, monitor long GPU jobs, collect logs and plots, and work around marimo cell constraints.",
-                      "developerName":  "Local developer",
+                      "developerName":  "Ivan Litvak",
                       "category":  "Productivity",
                       "capabilities":  [
                                            "browser-automation",
