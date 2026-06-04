@@ -2,13 +2,13 @@
   "name": "highload-gpu",
   "version": "0.1.0",
   "description": "High-load GPU and multi-GPU design, CUDA profiling, debugging, and stack-boundary guidance for Codex.",
-  "author": { "name": "Local developer" },
+  "author": { "name": "Ivan Litvak" },
   "skills": "./skills/",
   "interface": {
     "displayName": "HighloadGpu",
     "shortDescription": "Design, profile, and debug GPU systems.",
     "longDescription": "Guidance for C++/CUDA hot paths, Python/Rust orchestration, NVIDIA docs, CUTLASS/CUB/NCCL, Nsight, Compute Sanitizer, sweeps, and remote GPU runs.",
-    "developerName": "Local developer",
+    "developerName": "Ivan Litvak",
     "category": "Developer Tools",
     "capabilities": ["multi-gpu-architecture", "cuda-performance", "gpu-profiling", "nvidia-docs"],
     "defaultPrompt": [
