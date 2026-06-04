@@ -1,0 +1,23 @@
+{
+  "name": "docker",
+  "version": "0.1.0",
+  "description": "Docker, Compose, BuildKit, GPU containers, and HighloadGpu environments.",
+  "author": { "name": "Local developer" },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Docker",
+    "shortDescription": "Use Docker and GPU containers.",
+    "longDescription": "Skills for Dockerfiles, Compose, debugging, NVIDIA GPU containers, CUDA images, and HighloadGpu C++/CUDA environments.",
+    "developerName": "Local developer",
+    "category": "Developer Tools",
+    "capabilities": ["docker", "docker-compose", "buildkit", "gpu-containers", "cuda-development"],
+    "defaultPrompt": [
+      "Build and run this with Docker.",
+      "Debug this Docker container.",
+      "Set up a GPU Docker environment."
+    ],
+    "websiteURL": "https://docs.docker.com/",
+    "privacyPolicyURL": "https://www.docker.com/legal/docker-privacy-policy/",
+    "termsOfServiceURL": "https://www.docker.com/legal/docker-terms-service/"
+  }
+}
