@@ -1,0 +1,56 @@
+{
+  "name": "highload-gpu-codex-lab",
+  "interface": {
+    "displayName": "Highload GPU Codex Lab"
+  },
+  "plugins": [
+    {
+      "name": "molab",
+      "source": {
+        "source": "local",
+        "path": "./plugins/molab"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "kaggle",
+      "source": {
+        "source": "local",
+        "path": "./plugins/kaggle"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "highload-gpu",
+      "source": {
+        "source": "local",
+        "path": "./plugins/highload-gpu"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "docker",
+      "source": {
+        "source": "local",
+        "path": "./plugins/docker"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
