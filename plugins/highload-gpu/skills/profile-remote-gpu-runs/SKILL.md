@@ -1,6 +1,6 @@
 ---
 name: profile-remote-gpu-runs
-description: Use when profiling or monitoring remote GPU runs on Kaggle, Molab, H100, T4, RTX PRO Blackwell, or notebook sandboxes.
+description: Use when profiling remote GPU runs.
 ---
 
 # Profile Remote GPU Runs

@@ -1,6 +1,6 @@
 ---
 name: highload-gpu
-description: Use when working on high-load GPU, CUDA, multi-GPU, profiling, NVIDIA docs, or Python/Rust/C++/CUDA stack boundaries.
+description: Use when routing HighloadGpu tasks.
 ---
 
 # HighloadGpu

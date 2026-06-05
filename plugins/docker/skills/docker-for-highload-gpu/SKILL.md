@@ -1,6 +1,6 @@
 ---
 name: docker-for-highload-gpu
-description: Use when building Docker environments for HighloadGpu, CUDA/C++/Rust/Python stacks, multi-GPU profiling, Nsight, or Compute Sanitizer.
+description: Use when building CUDA Docker environments.
 ---
 
 # Docker For HighloadGpu

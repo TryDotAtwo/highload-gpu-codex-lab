@@ -1,6 +1,6 @@
 ---
 name: use-nsight-systems
-description: Use when diagnosing GPU timelines, stream overlap, CPU launch overhead, NCCL stalls, synchronization gaps, or nsys output.
+description: Use when analyzing GPU timelines.
 ---
 
 # Use Nsight Systems

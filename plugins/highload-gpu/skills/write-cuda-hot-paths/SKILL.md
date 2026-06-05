@@ -1,6 +1,6 @@
 ---
 name: write-cuda-hot-paths
-description: Use when implementing CUDA/C++ hot paths, CUDA Graphs, fixed memory, CUTLASS, CUB, CMake CUDA, or kernels.
+description: Use when writing CUDA hot paths.
 ---
 
 # Write CUDA Hot Paths

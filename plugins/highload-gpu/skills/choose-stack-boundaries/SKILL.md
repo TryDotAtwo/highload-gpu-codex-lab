@@ -1,6 +1,6 @@
 ---
 name: choose-stack-boundaries
-description: Use when deciding whether GPU-system code belongs in Python, Rust, C++, CUDA, torchrun, dashboards, or FFI.
+description: Use when choosing GPU stack boundaries.
 ---
 
 # Choose Stack Boundaries

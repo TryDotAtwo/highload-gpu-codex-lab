@@ -1,6 +1,6 @@
 ---
 name: benchmark-and-sweep-gpu-configs
-description: Use when tuning GPU batch size, microbatch, stream concurrency, shard count, ring slots, CUB/CUTLASS shapes, or memory headroom.
+description: Use when tuning GPU sweeps.
 ---
 
 # Benchmark And Sweep GPU Configs

@@ -1,6 +1,6 @@
 ---
 name: use-compute-sanitizer
-description: Use when CUDA reports illegal access, race, uninitialized memory, barrier/sync errors, or intermittent corruption.
+description: Use when debugging CUDA memory or race errors.
 ---
 
 # Use Compute Sanitizer

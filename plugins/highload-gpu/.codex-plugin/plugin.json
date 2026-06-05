@@ -1,8 +1,10 @@
 {
   "name": "highload-gpu",
-  "version": "0.1.0",
-  "description": "High-load GPU and multi-GPU design, CUDA profiling, debugging, and stack-boundary guidance for Codex.",
-  "author": { "name": "Ivan Litvak" },
+  "version": "0.1.0+codex.20260605110459",
+  "description": "High-load GPU and CUDA engineering guidance.",
+  "author": {
+    "name": "Ivan Litvak"
+  },
   "skills": "./skills/",
   "interface": {
     "displayName": "HighloadGpu",
@@ -10,11 +12,16 @@
     "longDescription": "Guidance for C++/CUDA hot paths, Python/Rust orchestration, NVIDIA docs, CUTLASS/CUB/NCCL, Nsight, Compute Sanitizer, sweeps, and remote GPU runs.",
     "developerName": "Ivan Litvak",
     "category": "Developer Tools",
-    "capabilities": ["multi-gpu-architecture", "cuda-performance", "gpu-profiling", "nvidia-docs"],
+    "capabilities": [
+      "multi-gpu-architecture",
+      "cuda-performance",
+      "gpu-profiling",
+      "nvidia-docs"
+    ],
     "defaultPrompt": [
-      "Design this high-load GPU system.",
+      "Design this GPU system.",
       "Profile this CUDA workload.",
-      "Choose the Python/Rust/C++/CUDA boundaries."
+      "Choose stack boundaries."
     ],
     "websiteURL": "https://docs.nvidia.com/cuda/",
     "privacyPolicyURL": "https://www.nvidia.com/en-us/about-nvidia/privacy-policy/",

@@ -1,6 +1,6 @@
 ---
 name: design-multigpu-systems
-description: Use when designing multi-GPU streams, sharding, NCCL exchange, static memory, thresholds, or final materialization.
+description: Use when designing multi-GPU systems.
 ---
 
 # Design Multi-GPU Systems

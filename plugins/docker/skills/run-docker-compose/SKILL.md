@@ -1,6 +1,6 @@
 ---
 name: run-docker-compose
-description: Use when working with Compose services, compose.yaml, service dependencies, ports, volumes, env files, profiles, or GPU reservations.
+description: Use when editing Docker Compose.
 ---
 
 # Run Docker Compose

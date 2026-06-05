@@ -1,6 +1,6 @@
 ---
 name: use-nsight-compute
-description: Use when profiling one CUDA/CUTLASS/CUB kernel, occupancy, memory throughput, warp stalls, or register/shared memory pressure.
+description: Use when profiling one CUDA kernel.
 ---
 
 # Use Nsight Compute
