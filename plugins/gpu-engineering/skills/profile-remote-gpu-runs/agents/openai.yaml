@@ -1,0 +1,9 @@
+interface:
+  display_name: profile remote gpu runs
+  short_description: Use when collecting reproducible GPU performance evidence on
+    remote hardware without taking ownership of a platform-specific notebook or job
+    lifecycle.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

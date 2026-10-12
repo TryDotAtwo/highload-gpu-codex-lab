@@ -1,0 +1,7 @@
+interface:
+  display_name: choose stack boundaries
+  short_description: Use when choosing GPU stack boundaries.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+technical-style-editor: Skill is valid!
+exit=0
+work-with-prism: Skill is valid!
+exit=0
+write-clear-explanations: Skill is valid!
+exit=0
+write-visual-research-papers: Skill is valid!
+exit=0

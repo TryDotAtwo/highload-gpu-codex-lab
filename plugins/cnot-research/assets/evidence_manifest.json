@@ -1,0 +1,856 @@
+{
+  "created_utc": "2026-09-24T08:45:10.682621+00:00",
+  "project_root": "C:\\Users\\Иван Литвак\\Documents\\ChatGPT\\TheQuantumProject",
+  "scope": "Own CNOT synthesis and transformer branch; curated allowlist",
+  "excludes": [
+    "Kelipaev archive/code/chains",
+    "EA matrices of archive provenance",
+    "other chats",
+    "credentials",
+    "installation history",
+    "copied weights or full replay"
+  ],
+  "files": [
+    {
+      "path": "CNOTColumnProjection.lean",
+      "size_bytes": 7620,
+      "sha256": "573ea0c53a7acd6e98f3e78b7281e5d2adf97bd8804312db0c033b6498fe70bf"
+    },
+    {
+      "path": "CNOTGateKernel.lean",
+      "size_bytes": 6453,
+      "sha256": "edf97fd9af74562c1dab4919c98888f0af910ebe10ae33190590fad996c7cb17"
+    },
+    {
+      "path": "ColumnMomentAlgebra.lean",
+      "size_bytes": 7659,
+      "sha256": "baec07291522c604cefa6500c94b3b0ca27acc6199d49c9ce705d0c369920059"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/apply_defect_saved.py",
+      "size_bytes": 2277,
+      "sha256": "2a7c6d5fc85ec32c53a255f6ccbd1592b8b70017c25fde6e454000a21fc4e796"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/audit_structural_field.py",
+      "size_bytes": 3177,
+      "sha256": "3117264076818f721c945068092166e2b04d26e6fd986a1c20a3ffd33d7be113"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/benchmark_diffusion_policy.py",
+      "size_bytes": 382,
+      "sha256": "020f050463d7e82e0b3fbbbe5607c16fe08ddd32b9b93e4ec8926e0fb115162b"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/benchmark_ea.py",
+      "size_bytes": 2039,
+      "sha256": "92f129c0395ff9a4f037193b22aecd0414b5a4dd8b5f0814cb2b044e4bd5ac33"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/benchmark_exact.py",
+      "size_bytes": 1777,
+      "sha256": "cf095ca9beb9f666e89f73e79a3634270c53c75e1237a6e36212976c0c5d7707"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/benchmark_improved.py",
+      "size_bytes": 2071,
+      "sha256": "d6e3109a1b14732124f943b5c1ad4fd1bdb84cf570423cddadde1f5b21d3af3e"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/benchmark_policy_large.py",
+      "size_bytes": 1695,
+      "sha256": "d48b51bbbf7a223b69bdd52a2593a972131700e61d103b4f508c0f264bb96183"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/code/defect_repair.py",
+      "size_bytes": 3210,
+      "sha256": "d6e00c6f62dbb318228dbf9bc7807404ec85f32cba1827b24f8124b3716693fe"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/code/exact_basis.py",
+      "size_bytes": 2315,
+      "sha256": "96b826d1d1d0e91f14ffd5349069254335521b505596059026eeb1da77db424d"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/code/forest_exact.py",
+      "size_bytes": 1650,
+      "sha256": "d1081f0d9855221c74f064e129312446d6df8a7f9be42050647caecd5c9aa47e"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/code/general_macro.py",
+      "size_bytes": 8072,
+      "sha256": "68d7b9b807507e527fab8ce1c1dfda8678278d01b322cc1c95800ea3d70e045d"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/code/global_gradient.py",
+      "size_bytes": 4238,
+      "sha256": "c8d0612896c88681e4c4f19a1f7848742efa9dd5b353ea5d136ad03cc4521a1a"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/code/neural_global.py",
+      "size_bytes": 7518,
+      "sha256": "d63496794b939ad0d5fea8260f0766035c7d0241f67f526e2ec91689155b4963"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/code/shared_synth.py",
+      "size_bytes": 19964,
+      "sha256": "c2e0d974d3ea44451ac2e79d0fd89f20429aa80e5eb88790e22999ea3a1fed3a"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/code/stage16_reference.py",
+      "size_bytes": 15487,
+      "sha256": "2a8c7f6ff8a4a58354e677f3a5bcaa3f3c306df6324e51be1c18b953e726c2ca"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/code/stage28_exact.py",
+      "size_bytes": 5108,
+      "sha256": "a4cca30229bce49c44179aa1add063971f44155c0533a2f4de9339a714bbe3bc"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/code/test_contract.py",
+      "size_bytes": 628,
+      "sha256": "6422ce9f79c492ce1f131133a55d94a13bc570780ca339997bf09824575e950e"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/code/test_exact_basis.py",
+      "size_bytes": 1997,
+      "sha256": "0af819f3aafcd7a49768e53206843ec89f7c47b3a9bc7ca8ba3277c49787e20a"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/code/test_general_macro.py",
+      "size_bytes": 2578,
+      "sha256": "ea82e054b2b1fcec04d2f8e33588975f2d2b82bc68d1f7ed37fef949d37b9b23"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/code/test_shared.py",
+      "size_bytes": 6552,
+      "sha256": "10614611baa7d9be6fa127aaede4fee051f9ad3df570c214afccbde52f29d1b7"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/code/test_stage23_integration.py",
+      "size_bytes": 897,
+      "sha256": "7f44428138bae66b52e874c9f68a95b45be74157c583869ea8917e8892959d6d"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/DIFFUSION_DESIGN_RU.md",
+      "size_bytes": 5155,
+      "sha256": "7de04b72a422aa87d505bad88393f410fc3a824e81fc7f4848ebb308c20339e1"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/diffusion_features.py",
+      "size_bytes": 4932,
+      "sha256": "1a7bd01a55589fd66fa68dcb72e94e97c44f23a89d49455a9be81073604497f6"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/full_neural_beam.py",
+      "size_bytes": 7268,
+      "sha256": "9bf9826e61c51c2cb50ba3e5c06d90af12fdde07270a70b695930340cd2d445a"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/neural_field_full.py",
+      "size_bytes": 14372,
+      "sha256": "6131cb0055ba258120a615a9f503e09aea197978c8ac6a414284722552b8439a"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/neural_large_windows.py",
+      "size_bytes": 5446,
+      "sha256": "1c19ae19b76eff2f5655d0c5f1f4b3e86f35b02643d6a6c34b3a0d066045e76f"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/__init__.py",
+      "size_bytes": 79,
+      "sha256": "ac8566d5d5a9d1912632be0bf6309d42a8dae8440ba000c465d06a93f5aa5fef"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/benchmark.py",
+      "size_bytes": 3416,
+      "sha256": "fcead1bc78da8a3154a0f529ac6d03ce75174bd3ffdfa4d1cb47b9f99750c8f6"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/data.py",
+      "size_bytes": 4638,
+      "sha256": "b1f996484998b1876d71120b379e3d6d646724f619830f2b9a7ee0461584d8a0"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/general_teacher.py",
+      "size_bytes": 7905,
+      "sha256": "cb6d63c27393ae7161dac5b87448f6a44bedc04f644dd7057742c01d9e43265f"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/model.py",
+      "size_bytes": 1450,
+      "sha256": "8d78877b0dbcf069e2ab03f22603cc61885c088252f4c9e9e921782cec18b194"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/teacher_policy_v3/best.pt",
+      "size_bytes": 18945355,
+      "sha256": "7c4cd305ed6f119baf1dd3de871a508117600b1fdb18d774cc0df8082e3bf977"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/teacher_policy_v3/comparison.json",
+      "size_bytes": 26393,
+      "sha256": "1141ab7eb63fff191d5ed6b156f338ecbb250bff8bdbc6d3eaef1646949c678b",
+      "snapshot": "assets/snapshot/policy_iteration/runs/teacher_policy_v3/comparison.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/teacher_policy_v3/config.json",
+      "size_bytes": 424,
+      "sha256": "97a8c3250676fb8a24d368cb1a884c12768b0f943f10f96dea8759f216fcff79",
+      "snapshot": "assets/snapshot/policy_iteration/runs/teacher_policy_v3/config.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/teacher_policy_v3/iteration_0.json",
+      "size_bytes": 4081,
+      "sha256": "8eeefa34e70f7f2de5fb1547736c554b60dba262bfc3988758fe6f51b396f81d",
+      "snapshot": "assets/snapshot/policy_iteration/runs/teacher_policy_v3/iteration_0.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/teacher_policy_v3/iteration_1.json",
+      "size_bytes": 3857,
+      "sha256": "ecfbaff9ea9d839a242c77c8667d655e7421dee2688365c3d5a9ca610cd63051",
+      "snapshot": "assets/snapshot/policy_iteration/runs/teacher_policy_v3/iteration_1.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/teacher_policy_v3/last.pt",
+      "size_bytes": 18945291,
+      "sha256": "72b42617bfa37fb5eaf3c51b6c653828d723961cac98bfa8161c43dc63fc6e82"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/teacher_policy_v3/replay_initial.json",
+      "size_bytes": 2447900,
+      "sha256": "ca0c2f734f1fa3ac1b93e73ba2232d5375cd254f4e9064fa14576c266190c339"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/teacher_policy_v3/shortlist32.json",
+      "size_bytes": 10646,
+      "sha256": "03827010c878a169dd24c06e821abc45d62d571f5e4a0e8874abefecc983d3af",
+      "snapshot": "assets/snapshot/policy_iteration/runs/teacher_policy_v3/shortlist32.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/teacher_policy_v3/source_hashes.json",
+      "size_bytes": 1982,
+      "sha256": "b771d97d2850101b46d7daf0b195c9bdd3036ac2a939555c99a450d9f777a0f1",
+      "snapshot": "assets/snapshot/policy_iteration/runs/teacher_policy_v3/source_hashes.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/teacher_policy_v3/train.jsonl",
+      "size_bytes": 248545,
+      "sha256": "44c0b64458777c51620254fbc2ebfc452ddc3e04f6a2823fb241a2a8a355a0e8"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/teacher_policy_v3/train_goals.json",
+      "size_bytes": 96314,
+      "sha256": "d0abf2f044c39be1d8d07be41c9c2ef12aa4c1cf5afa0f8e5fafb63bbab99082"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/teacher_policy_v3/validation.json",
+      "size_bytes": 702442,
+      "sha256": "eb9c7c15a0a8f3343738ef96ad6722f0b30ccbb286bb8a24ba8e08a08ee5abf3"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/teacher_policy_v3/validation_goals.json",
+      "size_bytes": 34103,
+      "sha256": "9ddc36f0ccb583d8a159e0ccda40c20f8914979d81d11a2afa598d521c64ca43"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/teacher_policy_v3/verification.json",
+      "size_bytes": 304,
+      "sha256": "e60c1fef998c9a3e4590bd707c69dbc89a5eb2acbe2935bfd87402914b03e37b",
+      "snapshot": "assets/snapshot/policy_iteration/runs/teacher_policy_v3/verification.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/walk_heat_off_v1/best.pt",
+      "size_bytes": 18945355,
+      "sha256": "ee570efc5eb801a09ab15b29c190e818fa33f604d59feac38a7334d22a4663f7"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/walk_heat_off_v1/comparison.json",
+      "size_bytes": 21367,
+      "sha256": "fdc445884c816a3cfed367605d84d73fac3097d1402014d7cbf6a706447431c3",
+      "snapshot": "assets/snapshot/policy_iteration/runs/walk_heat_off_v1/comparison.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/walk_heat_off_v1/config.json",
+      "size_bytes": 423,
+      "sha256": "0a5f0d46bcdccc156fdbed87e8fdeb340b227b3b280a533da3564217106eb9e1",
+      "snapshot": "assets/snapshot/policy_iteration/runs/walk_heat_off_v1/config.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/walk_heat_off_v1/diffusion_config.json",
+      "size_bytes": 541,
+      "sha256": "26d58a01f993237ab7d75b73bdc8e60caf72f71eef38718b7fc3d2fde638dbed",
+      "snapshot": "assets/snapshot/policy_iteration/runs/walk_heat_off_v1/diffusion_config.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/walk_heat_off_v1/iteration_0.json",
+      "size_bytes": 4367,
+      "sha256": "e357b3398f95634fe127b9dee93692eba80c4524070863a691f24869b7e2a5f3",
+      "snapshot": "assets/snapshot/policy_iteration/runs/walk_heat_off_v1/iteration_0.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/walk_heat_off_v1/last.pt",
+      "size_bytes": 18945355,
+      "sha256": "ad23cebd5d6a9ee5cb1a31a1888f697068dd946f17a35ea34157a0319f0c3e82"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/walk_heat_off_v1/replay_initial.json",
+      "size_bytes": 3333054,
+      "sha256": "21e5eaeea4de48f1c0debabcb3dd086f75551d1e1e80ac6283ce2a4f76110a98"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/walk_heat_off_v1/source_hashes.json",
+      "size_bytes": 1982,
+      "sha256": "b771d97d2850101b46d7daf0b195c9bdd3036ac2a939555c99a450d9f777a0f1",
+      "snapshot": "assets/snapshot/policy_iteration/runs/walk_heat_off_v1/source_hashes.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/walk_heat_off_v1/train.jsonl",
+      "size_bytes": 123946,
+      "sha256": "077513951b45d68632f0125c1957bc9639c534f9bd85b17ebf31ee690e365645"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/walk_heat_off_v1/train_goals.json",
+      "size_bytes": 96314,
+      "sha256": "d0abf2f044c39be1d8d07be41c9c2ef12aa4c1cf5afa0f8e5fafb63bbab99082"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/walk_heat_off_v1/validation.json",
+      "size_bytes": 921958,
+      "sha256": "7479b6cd0055eba2df40eb221cd063f369f49869e94b7c08728acfa95d7c07bf"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/walk_heat_off_v1/validation_goals.json",
+      "size_bytes": 34103,
+      "sha256": "9ddc36f0ccb583d8a159e0ccda40c20f8914979d81d11a2afa598d521c64ca43"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/walk_heat_off_v1/walk_heat_profiles.json",
+      "size_bytes": 1868340,
+      "sha256": "ff5cf607ec2ad95bd4600618015cedbc84f93d8621744d79b985f341118f1a0d"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/walk_heat_on_v1/best.pt",
+      "size_bytes": 18961259,
+      "sha256": "2e4954ca3efc9be407d9ce032b1deaa775e1aad24e1c0bf056fca5ccc1de5db1"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/walk_heat_on_v1/comparison.json",
+      "size_bytes": 21366,
+      "sha256": "9ab1d767dbaf59fe7cfc26564345e047cdbade665bb4a169d2d2e148fa2da903",
+      "snapshot": "assets/snapshot/policy_iteration/runs/walk_heat_on_v1/comparison.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/walk_heat_on_v1/config.json",
+      "size_bytes": 423,
+      "sha256": "327d92a308cb1e18cc0c376c3c7574959b3c74ccbf6af3cccd5bd4fb4e0f4b09",
+      "snapshot": "assets/snapshot/policy_iteration/runs/walk_heat_on_v1/config.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/walk_heat_on_v1/diffusion_config.json",
+      "size_bytes": 540,
+      "sha256": "bfdded89001312a4d1951d17e07da448e588934e76e221225f4f1a7f44b51322",
+      "snapshot": "assets/snapshot/policy_iteration/runs/walk_heat_on_v1/diffusion_config.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/walk_heat_on_v1/iteration_0.json",
+      "size_bytes": 4368,
+      "sha256": "882c86de5259843e35112acfc7d997b9695fbc922efe524bc6e84c97eb98845c",
+      "snapshot": "assets/snapshot/policy_iteration/runs/walk_heat_on_v1/iteration_0.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/walk_heat_on_v1/large.json",
+      "size_bytes": 25047,
+      "sha256": "bc6ca9fc39c55f24578eff66b506d1926756f34f5828295cb345170ee4b4936a",
+      "snapshot": "assets/snapshot/policy_iteration/runs/walk_heat_on_v1/large.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/walk_heat_on_v1/last.pt",
+      "size_bytes": 18961259,
+      "sha256": "eecdacded9d787fba7b1aa42ee81052a1647c138205f60a58885317cd30e2af8"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/walk_heat_on_v1/replay_initial.json",
+      "size_bytes": 3333054,
+      "sha256": "21e5eaeea4de48f1c0debabcb3dd086f75551d1e1e80ac6283ce2a4f76110a98"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/walk_heat_on_v1/source_hashes.json",
+      "size_bytes": 1982,
+      "sha256": "b771d97d2850101b46d7daf0b195c9bdd3036ac2a939555c99a450d9f777a0f1",
+      "snapshot": "assets/snapshot/policy_iteration/runs/walk_heat_on_v1/source_hashes.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/walk_heat_on_v1/train.jsonl",
+      "size_bytes": 124069,
+      "sha256": "532a9332fb0193e6685870bbf01e1dd0e0ed7c25b9b53ab937b644fa62ae14b0"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/walk_heat_on_v1/train_goals.json",
+      "size_bytes": 96314,
+      "sha256": "d0abf2f044c39be1d8d07be41c9c2ef12aa4c1cf5afa0f8e5fafb63bbab99082"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/walk_heat_on_v1/validation.json",
+      "size_bytes": 921958,
+      "sha256": "7479b6cd0055eba2df40eb221cd063f369f49869e94b7c08728acfa95d7c07bf"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/walk_heat_on_v1/validation_goals.json",
+      "size_bytes": 34103,
+      "sha256": "9ddc36f0ccb583d8a159e0ccda40c20f8914979d81d11a2afa598d521c64ca43"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/runs/walk_heat_on_v1/walk_heat_profiles.json",
+      "size_bytes": 1868340,
+      "sha256": "ff5cf607ec2ad95bd4600618015cedbc84f93d8621744d79b985f341118f1a0d"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/search.py",
+      "size_bytes": 2260,
+      "sha256": "84cf660b3507e4d6dcc7c7ffffd7c0115dba79b80c0c226aba5f3c82dd64b7e9"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/test_contracts.py",
+      "size_bytes": 1653,
+      "sha256": "66d9ee8ebe7ff158d9f367d8a442621f1e0c3eb109805e18cd0341bf3482b921"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_iteration/train.py",
+      "size_bytes": 8711,
+      "sha256": "bd28dde8231172bf70e2e6a51d8d3ff483023e98f44285d362ba05494121f732"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/policy_shortlist.py",
+      "size_bytes": 3401,
+      "sha256": "0be53cf6b17e903a5a7210c24a4fbdc474eb1ad21b913bf50282b074ece7d915"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/postprocess_saved.py",
+      "size_bytes": 1692,
+      "sha256": "87b490e68062f682a3d3f35d66914f0a78a11e77d303cd8611a92fff019a20f4"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/README.md",
+      "size_bytes": 17556,
+      "sha256": "fbb3c0489a7dcb80b60aecf8f7269c87c66f6c8b98ffe4390e7c598faa80451d"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/report_diffusion_ablation.py",
+      "size_bytes": 4892,
+      "sha256": "4e3e3aa88561e215a11ae7885c069d12ff126b909836f732c5fd7c80eb6147f6"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/report_policy_iteration.py",
+      "size_bytes": 5574,
+      "sha256": "9aee29d86523fd02fc5f57f6bc699800858e5fb2edafc4a1d4ca8ee03350a6b9"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/rerun_field_v2.py",
+      "size_bytes": 1797,
+      "sha256": "d4fa0bfa368dfe7499d5f0cbe9f53d8417f3f48c75940e4621a094c6eab1e9af"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/results_exact/bb_108_8_10.json",
+      "size_bytes": 1639308,
+      "sha256": "4d681643012142af02d29f5a1f0e6261560e5c19fabfa1eab7fbd7dd9bffcc54",
+      "snapshot": "assets/snapshot/results_exact/bb_108_8_10.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/results_exact/bb_144_12_12.json",
+      "size_bytes": 2928986,
+      "sha256": "861fe43ba93d1b8cf60aa6097c042aaefa28fb5b7052bee69c07f0036ca00283",
+      "snapshot": "assets/snapshot/results_exact/bb_144_12_12.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/results_exact/bb_72_12_6.json",
+      "size_bytes": 815807,
+      "sha256": "3cd5a3dfa4a39d8a570754134e2765a0b796d00fa027123139f80256654ddb69",
+      "snapshot": "assets/snapshot/results_exact/bb_72_12_6.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/results_exact/bb_90_8_10.json",
+      "size_bytes": 1217568,
+      "sha256": "149db1fd6415d8b5790046f96bc20985f0038d712a2f9c08f7fc3bdf1618dc59",
+      "snapshot": "assets/snapshot/results_exact/bb_90_8_10.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/results_exact/hgp_13_1.json",
+      "size_bytes": 37414,
+      "sha256": "9fc9a49ffc99fb0947b01a0be9c714d20b79c156905c1f3cffb5ae6d640c4eaa",
+      "snapshot": "assets/snapshot/results_exact/hgp_13_1.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/results_exact/hgp_25_1.json",
+      "size_bytes": 97367,
+      "sha256": "87adc26e85fbe5e9e4982d26ae9628736fe2f1197dd260e69b03f721b39d1d27",
+      "snapshot": "assets/snapshot/results_exact/hgp_25_1.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/results_exact/hgp_34_10.json",
+      "size_bytes": 164112,
+      "sha256": "565a7d9d911009055768fad50e1e4d723e3f0dd69977aa7990d8f95126ef962a",
+      "snapshot": "assets/snapshot/results_exact/hgp_34_10.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/results_exact/hgp_45_9.json",
+      "size_bytes": 254822,
+      "sha256": "28792c3564dfdc6415336486226e050104d8e48e10e8b3b45cca7a512ff45f66",
+      "snapshot": "assets/snapshot/results_exact/hgp_45_9.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/results_exact/hgp_58_16.json",
+      "size_bytes": 416241,
+      "sha256": "2818b00ee161901349d0423ffde7ec1c082083eb17689bb76c0c8b5a4b59a274",
+      "snapshot": "assets/snapshot/results_exact/hgp_58_16.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/results_exact/summary.json",
+      "size_bytes": 1140,
+      "sha256": "e4b516211ce1d06ac8b15dcc8b8398f9e3f8ce88dd9cf08a390c86eeb603df7a",
+      "snapshot": "assets/snapshot/results_exact/summary.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/results_neural/evaluation.json",
+      "size_bytes": 22192,
+      "sha256": "00a659ae3bafdd322f94dbe550212289de52c9227b332db055751a83ada0c950",
+      "snapshot": "assets/snapshot/results_neural/evaluation.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/results_neural_large/stage17_BB_HGP/bb_108_8_10.json",
+      "size_bytes": 21029,
+      "sha256": "c4f0cb08b667a721fa41a476986f932a92ded9b3d291d6713d1ccd19817a4cc7",
+      "snapshot": "assets/snapshot/results_neural_large/stage17_BB_HGP/bb_108_8_10.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/results_neural_large/stage17_BB_HGP/bb_144_12_12.json",
+      "size_bytes": 39005,
+      "sha256": "78190ba793b95d329f7ff97ff2dac702895cb522fcaedd2936e972bf851472e3",
+      "snapshot": "assets/snapshot/results_neural_large/stage17_BB_HGP/bb_144_12_12.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/results_neural_large/stage17_BB_HGP/bb_72_12_6.json",
+      "size_bytes": 12945,
+      "sha256": "760618c236f6c613aa4ab58571d81dd426a64b7155e003fe639612e4504a4e8f",
+      "snapshot": "assets/snapshot/results_neural_large/stage17_BB_HGP/bb_72_12_6.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/results_neural_large/stage17_BB_HGP/bb_90_8_10.json",
+      "size_bytes": 15445,
+      "sha256": "d599edc1b89892922915a5cc55c02798c1868758e6df8c3ff9c4a6694d30fdbb",
+      "snapshot": "assets/snapshot/results_neural_large/stage17_BB_HGP/bb_90_8_10.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/results_neural_large/stage17_BB_HGP/hgp_13_1.json",
+      "size_bytes": 1085,
+      "sha256": "db8d479756e991ddb6093bb19882002c3127a31107d082582667dc7271978375",
+      "snapshot": "assets/snapshot/results_neural_large/stage17_BB_HGP/hgp_13_1.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/results_neural_large/stage17_BB_HGP/hgp_25_1.json",
+      "size_bytes": 1862,
+      "sha256": "0cf0506899d2c82dcef38e12d2da4543fdfed4128bf2fb65bbe6c6ba1085c251",
+      "snapshot": "assets/snapshot/results_neural_large/stage17_BB_HGP/hgp_25_1.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/results_neural_large/stage17_BB_HGP/hgp_34_10.json",
+      "size_bytes": 2841,
+      "sha256": "0edf3fed5bc0a57a81c3a9251ed25a23f6c5c047b6694c02e4af2b33be30688e",
+      "snapshot": "assets/snapshot/results_neural_large/stage17_BB_HGP/hgp_34_10.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/results_neural_large/stage17_BB_HGP/hgp_45_9.json",
+      "size_bytes": 3738,
+      "sha256": "9a1260e88c000ad53ba76a53b4f036887279d278ff802d8e10bd3fa59d167003",
+      "snapshot": "assets/snapshot/results_neural_large/stage17_BB_HGP/hgp_45_9.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/results_neural_large/stage17_BB_HGP/hgp_58_16.json",
+      "size_bytes": 5718,
+      "sha256": "26896a0109e7bb51af864b52c91641c4449e6f1632ef6993a8096412fa949d80",
+      "snapshot": "assets/snapshot/results_neural_large/stage17_BB_HGP/hgp_58_16.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/results_neural_large/summary.json",
+      "size_bytes": 2871,
+      "sha256": "305f02da08dcb87a76dadc1f03984f616485b182fe7a14510616027a23405f02",
+      "snapshot": "assets/snapshot/results_neural_large/summary.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/run_saved_full_field.py",
+      "size_bytes": 1026,
+      "sha256": "872ebb750bcfc8fd90500e30d21e444e5cdda1e1e45e1298c3d489418b056cd3"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/structured_field/__init__.py",
+      "size_bytes": 62,
+      "sha256": "5a25865079543cb1df2f3af970e47f496297ea65d37a06d1e69908d58458130d"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/structured_field/basis_transitions.py",
+      "size_bytes": 2099,
+      "sha256": "64ea31f1d6a6d6d5198249fa20201bc470ba09d887716f4a97a9a135b4a65020"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/structured_field/beam.py",
+      "size_bytes": 3953,
+      "sha256": "77fb65bb6b7574bb484921585309efc4a86e83f1ac0ee9c5b657061300b5f560"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/structured_field/benchmark.py",
+      "size_bytes": 3026,
+      "sha256": "f980b2f8c8f405e6f9556d8cc568f1ae92186da9294f369cee3d1958b400f305"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/structured_field/configs/replay_base.json",
+      "size_bytes": 339,
+      "sha256": "3f81eb0379fc221cf735f6bdfce4f1d3fe2ee0035ca43e12922912cfa1e83831"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/structured_field/configs/replay_base_v4.json",
+      "size_bytes": 382,
+      "sha256": "20a23e1bae3297e23bea6a9379be87ed54ea2af1b8180b75ebb5dfbcb66a8012"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/structured_field/configs/replay_basis.json",
+      "size_bytes": 338,
+      "sha256": "ddff8dd44ad5a73ae1ae8695496f4a0248b07e09e9c769dd8b00b88d7db0f7bb"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/structured_field/configs/replay_basis_v4.json",
+      "size_bytes": 381,
+      "sha256": "b93d8122e249ce86e58f146342931d7f7224f19ce1c17cabd3e52f48d56619cc"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/structured_field/configs/smoke.json",
+      "size_bytes": 391,
+      "sha256": "a880215a83520ae081a124b4413751b679bd917ad1fef4c90590a64ea72f18f4"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/structured_field/configs/structural_base.json",
+      "size_bytes": 398,
+      "sha256": "2ff69e003a38a34050106ab5cdd17578a991dd864e502c4e81c6ea1bef6674e7"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/structured_field/configs/structural_base_long.json",
+      "size_bytes": 400,
+      "sha256": "3cb463295d95f6fc538548a6aba8d310b612cd323a505d5d42cd3abab382c4cc"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/structured_field/configs/structural_basis.json",
+      "size_bytes": 397,
+      "sha256": "2d29e245d323cb70d4cfbe4b91814c3ce2d1fb5acc3f794ff21d888e8297e6be"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/structured_field/configs/structural_basis_long.json",
+      "size_bytes": 399,
+      "sha256": "f09363b0eec40c52430079c83f10f2ecad8c54c21d2339c6c19659af95972706"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/structured_field/configs/structural_basis_rank.json",
+      "size_bytes": 457,
+      "sha256": "a38e37ce2938a4d34dfdd8455fa05d3a011aface291551e51a60264d27da6628"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/structured_field/data.py",
+      "size_bytes": 6932,
+      "sha256": "514fe172af6552dbe616033f32d7fc10c1fc952c4e6859f32ee4901d0df0e5b7"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/structured_field/experiment.py",
+      "size_bytes": 8804,
+      "sha256": "8b3903110717534d20ae3b90f1c8f2e357b4de8e6658f14289dec522b7430034"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/structured_field/gf2.py",
+      "size_bytes": 3043,
+      "sha256": "90a174384e1c8ab1f00f1df0eed3df789c04680ea73c82b82e848e26640d3ec9"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/structured_field/model.py",
+      "size_bytes": 7284,
+      "sha256": "9ada2624c965fb7af21f80da101c752355b8e5f47a96462baabdbab3b4c07a10"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/structured_field/objectives.py",
+      "size_bytes": 6619,
+      "sha256": "819d12197b1743c308c6a5e2520a175d6d04db1e207cb3caa18e6e35b13ed568"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/structured_field/runs/replay_v4_comparison.json",
+      "size_bytes": 28678,
+      "sha256": "8a77c8e3b72c9bb9925018f67a33ff18dbbab4c3a902904984b7d0bf01fc156e",
+      "snapshot": "assets/snapshot/structured_field/runs/replay_v4_comparison.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/structured_field/runs/replay_v4_comparison.verification.json",
+      "size_bytes": 2072,
+      "sha256": "70d89139eb252f5a7cb4c1e615371d08cbfc2215e55ac1845fa4bf662f300528",
+      "snapshot": "assets/snapshot/structured_field/runs/replay_v4_comparison.verification.json"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/structured_field/test_contracts.py",
+      "size_bytes": 7193,
+      "sha256": "9ac3862c31ddf702e1b196c2190e6f0cf4ac68118fb3d013f85e4bf5a21d7fb3"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/structured_field/train.py",
+      "size_bytes": 5678,
+      "sha256": "63b28e3af19a8848162231461448a642848b651fe1ef9ae582cbe801147ca851"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/STRUCTURED_FIELD_IMPLEMENTATION_PLAN_RU.md",
+      "size_bytes": 29192,
+      "sha256": "57c483edd36929d57b4079328996affbb15fcf0a4274b09011b8569a7b972762"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/STRUCTURED_FIELD_STATUS_RU.md",
+      "size_bytes": 6314,
+      "sha256": "8d8560d9d9345af8ca259f9671e89c07c59bf889b8d44c2754b3d879c0378383"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/summarize_structural.py",
+      "size_bytes": 7296,
+      "sha256": "97f81039a4a518aa297c3c6fa146a01a5ca7ffc0deca620721e2f6bfed342585"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/test_diffusion_features.py",
+      "size_bytes": 2324,
+      "sha256": "a9f363c63df2d832428f69ec09f86d5853786e9f5f9cb5a6f53d5c23d36ad6d0"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/test_policy_shortlist.py",
+      "size_bytes": 737,
+      "sha256": "2970bdd8a9929a548d2e6f7f3db69b2f04e24324c08649f075f7fbedfe07f738"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/train_diffusion_policy.py",
+      "size_bytes": 2513,
+      "sha256": "967adac9f8a613dbdfb2d430d177fde940b80f4f7140d591ddec9250d7065824"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/improved/verify_structural_artifacts.py",
+      "size_bytes": 2650,
+      "sha256": "8978b35a20128a2e4f62f20987ff80359b462b3ba6e164a739d7b004f9b9f89b"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/source_snapshot/code/check_package.py",
+      "size_bytes": 2670,
+      "sha256": "2738a8b1598689ef57155a5bd70336855008a8c8939800e97fdc4a82242a1b26"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/source_snapshot/code/prepare_bb.py",
+      "size_bytes": 801,
+      "sha256": "b457c7a582b307556834ad3fa03c1c988e92453d4b11b4a2ba5e127ae95c50a7"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/source_snapshot/code/prepare_existing.py",
+      "size_bytes": 1086,
+      "sha256": "f070c572224cf68c188fd608548bf3f8ffbe4172a59f3084095ad68200d713c0"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/source_snapshot/code/run_existing.py",
+      "size_bytes": 650,
+      "sha256": "6367e9ebcd9dc94d153c61345c464fa4ce1f9651e394d0254a947342f94e5158"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/source_snapshot/code/run_extended.py",
+      "size_bytes": 2088,
+      "sha256": "6fb612fae0113d4940e95d0d77b71147af979fa2f0264562cff61429044686a4"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/source_snapshot/code/run_ready_benchmarks.py",
+      "size_bytes": 2058,
+      "sha256": "b59ac0bf348b50be79d2ab632ad9ec3a6061736ac955df2bd8fc4677ec51bec4"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/source_snapshot/code/run_reference.py",
+      "size_bytes": 533,
+      "sha256": "4d45f404f6e28735a7fcc6c15136aab996ebda65ab666ed5f28e5481ce0e5d5d"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/source_snapshot/code/run_rounding_bb.py",
+      "size_bytes": 649,
+      "sha256": "6e2fff081872b2260bd23ebd00b2d537b325956661e24712ab0308f9837e1f78"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/source_snapshot/code/shared_synth.py",
+      "size_bytes": 13180,
+      "sha256": "3c13c92a1ed550163e466d418c062875d4528449c40f940e10792d15716fefa1"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/source_snapshot/code/stage16_reference.py",
+      "size_bytes": 15487,
+      "sha256": "2a8c7f6ff8a4a58354e677f3a5bcaa3f3c306df6324e51be1c18b953e726c2ca"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/source_snapshot/code/summarize.py",
+      "size_bytes": 3205,
+      "sha256": "799eed479cceb5f7f9ee1e915c91dc16c0506a6622ef7baf8d26392735c83c34"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/source_snapshot/code/test_contract.py",
+      "size_bytes": 628,
+      "sha256": "6422ce9f79c492ce1f131133a55d94a13bc570780ca339997bf09824575e950e"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/source_snapshot/code/test_shared.py",
+      "size_bytes": 6386,
+      "sha256": "5676fce5574bc96d6f26b093c415ed01fc1f4dc8caf7701a6d0a5b0d18c7eb71"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/source_snapshot/code/verify_outputs.py",
+      "size_bytes": 3436,
+      "sha256": "861517e49421b1e476a89e653a4edf888e9fdae5f2ca91ef340f79b4b763e9c5"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/source_snapshot/inputs/bb_108_8_10.json",
+      "size_bytes": 35220,
+      "sha256": "6a1b87558e290544cf9859c13ba6e8c9a891cfdbf9a1dbd936e4de42c627ecdc"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/source_snapshot/inputs/bb_144_12_12.json",
+      "size_bytes": 62508,
+      "sha256": "1347d3a39f8c0ddfce79cd3c9c5923526e65a6fe274b012cf70fce629334f34c"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/source_snapshot/inputs/bb_72_12_6.json",
+      "size_bytes": 15708,
+      "sha256": "ba53300ed62d34d9f209709b9e7a169f97606cae22691d7b411e2db942808065"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/source_snapshot/inputs/bb_90_8_10.json",
+      "size_bytes": 24492,
+      "sha256": "0fabecdd2ab410436ce21849a203041b75ff4f1381f6b6080f52f398810c5c8e"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/source_snapshot/inputs/hgp_13_1.json",
+      "size_bytes": 545,
+      "sha256": "4dd8eb142a4a0bc2baa5c80f2eb3a8f657319e7eb06f3b07cc5ba77c2aa66085"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/source_snapshot/inputs/hgp_25_1.json",
+      "size_bytes": 1937,
+      "sha256": "8ca7a5cbf38da659d28f124e2787aa99d6696108f884d59c6c438061e95f5fd0"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/source_snapshot/inputs/hgp_34_10.json",
+      "size_bytes": 3548,
+      "sha256": "99591e738c74b57ab10382bb169f46ae7d3118a4bf42c7e199b19bdab1c346b1"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/source_snapshot/inputs/hgp_45_9.json",
+      "size_bytes": 6177,
+      "sha256": "4ca39bca7802292a87904e1cd114506f72da150084c7a6c6a8b34118d722b954"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/source_snapshot/inputs/hgp_58_16.json",
+      "size_bytes": 10220,
+      "sha256": "6eaf80acb9eb202325ada08e78bee38bca98134fe64aae8825581b1d9747f10b"
+    },
+    {
+      "path": "synthesis-methods/01_shared_basis_stage17/source_snapshot/SUMMARY_RU.md",
+      "size_bytes": 6100,
+      "sha256": "26b888ef24767b7e5436f062c3206cd0dde2c7ecff5c4475ca8c18ca8caad667"
+    }
+  ]
+}

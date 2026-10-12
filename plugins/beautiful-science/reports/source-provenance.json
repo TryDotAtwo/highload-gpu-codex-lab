@@ -1,0 +1,41 @@
+{
+  "version_date": "2026-10-01",
+  "source_basis": "User-supplied manuscript and chapter sources; no original personal conversation included",
+  "sources": [
+    {
+      "id": "monograph",
+      "title": "Научная красота. Формы понимания, эвристики открытия и пределы эстетического суждения",
+      "locator": "Chapters 14,18,27,29–32",
+      "sha256": "847c2cd57417ea293b994307057901e41f0c62e3c193d8e727b835ebc6eefc28",
+      "access": "Local supplied text inspected during authoring; external historical source access statuses inherited from manuscript ledgers"
+    },
+    {
+      "id": "parity",
+      "title": "Чётность: красивая симметрия и ошибка переноса",
+      "locator": "Sections 18.1–18.7",
+      "sha256": "81f35ed48e61b66ce89f2ab788504367ff410178d430643df51b4ed293ef5a62",
+      "access": "Local supplied text inspected during authoring; external historical source access statuses inherited from manuscript ledgers"
+    },
+    {
+      "id": "weyl",
+      "title": "Вейль: ложная теория и плодотворная структура",
+      "locator": "Sections 17А.1–17А.7",
+      "sha256": "909b948bc6f906948e60797a884e59ad5f5bd924d3290271cb69be1ce76e4765",
+      "access": "Local supplied text inspected during authoring; external historical source access statuses inherited from manuscript ledgers"
+    },
+    {
+      "id": "formal",
+      "title": "Длинные, вычислительные и формальные доказательства",
+      "locator": "Sections 14.4–14.8",
+      "sha256": "c5a288adb579fd939bf607f6df7edb2bc3f5af3fd4a8c05e5040d27f33d0180e",
+      "access": "Local supplied text inspected during authoring; external historical source access statuses inherited from manuscript ledgers"
+    },
+    {
+      "id": "algorithms",
+      "title": "Алгоритмы: идея, ресурс и реализация",
+      "locator": "Sections 27.1–27.8",
+      "sha256": "06ca2671cec89ea93334f4a27319bb4ad60ebb1d2edb8c056cf33980bfd0beff",
+      "access": "Local supplied text inspected during authoring; external historical source access statuses inherited from manuscript ledgers"
+    }
+  ]
+}

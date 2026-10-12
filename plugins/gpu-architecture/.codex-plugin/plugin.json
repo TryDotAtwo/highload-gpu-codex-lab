@@ -1,0 +1,22 @@
+{
+  "name": "gpu-architecture",
+  "version": "0.1.0",
+  "description": "Design and audit complete GPU execution architectures from algorithm semantics through memory, concurrency, communication, and staged validation.",
+  "author": {
+    "name": "Ivan Litvak"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "GPU Architecture",
+    "shortDescription": "Design complete, testable GPU systems.",
+    "longDescription": "Turns algorithm semantics and hardware constraints into explicit GPU dataflow, memory, asynchronous job, multi-GPU ownership, failure, and validation contracts.",
+    "developerName": "Ivan Litvak",
+    "category": "Developer Tools",
+    "capabilities": ["Architecture", "CUDA", "Multi-GPU"],
+    "defaultPrompt": [
+      "Design a complete GPU execution architecture for this workload.",
+      "Audit this GPU architecture for missing contracts.",
+      "Split this GPU design into independently verifiable implementation stages."
+    ]
+  }
+}

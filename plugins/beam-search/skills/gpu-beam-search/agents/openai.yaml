@@ -1,0 +1,9 @@
+interface:
+  display_name: gpu beam search
+  short_description: Use when designing, implementing, tuning, debugging, or validating
+    GPU beam search, frontier expansion, candidate selection, beam deduplication,
+    BFS-touch solving, or collect-all solution pipelines.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

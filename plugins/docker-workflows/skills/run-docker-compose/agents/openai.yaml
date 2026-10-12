@@ -1,0 +1,7 @@
+interface:
+  display_name: run docker compose
+  short_description: Use when editing Docker Compose.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

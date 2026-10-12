@@ -1,0 +1,29 @@
+{
+  "name": "gpu-neural-inference",
+  "version": "0.1.0+codex.20260905082405",
+  "description": "Optimize and validate MLP and Transformer inference on NVIDIA GPUs.",
+  "author": {
+    "name": "Ivan Litvak"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "GpuNeuralInference",
+    "shortDescription": "Optimize GPU MLP and Transformer inference.",
+    "longDescription": "Guidance for isolated inference benchmarking, model microbatch and concurrency tuning, fused Transformer hot paths, offline low-precision export, SM120 block-scaled NVFP4/MXFP4 execution, and task-level quality validation.",
+    "developerName": "Ivan Litvak",
+    "category": "Developer Tools",
+    "capabilities": [
+      "gpu-inference",
+      "transformer-kernels",
+      "mlp-kernels",
+      "low-precision-export",
+      "blackwell-block-scaled-inference",
+      "inference-quality-validation"
+    ],
+    "defaultPrompt": [
+      "Tune this model's GPU inference.",
+      "Fuse this Transformer hot path.",
+      "Design and validate an SM120 low-precision inference path."
+    ]
+  }
+}

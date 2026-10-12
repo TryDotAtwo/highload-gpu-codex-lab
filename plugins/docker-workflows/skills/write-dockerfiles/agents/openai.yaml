@@ -1,0 +1,7 @@
+interface:
+  display_name: write dockerfiles
+  short_description: Use when writing Dockerfiles.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

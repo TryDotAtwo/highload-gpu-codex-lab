@@ -1,0 +1,9 @@
+interface:
+  display_name: work with lean
+  short_description: Formalize mathematics in Lean 4, debug Lean/Mathlib proofs, verify
+    exact finite certificates, and audit proof coverage and transitive axioms in existing
+    local or Docker projects.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

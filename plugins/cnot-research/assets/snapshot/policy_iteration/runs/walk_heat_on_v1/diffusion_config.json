@@ -1,0 +1,17 @@
+{
+  "enabled": true,
+  "times_tau": [
+    0.25,
+    1.0,
+    4.0,
+    16.0
+  ],
+  "clock": "t=n*tau, non-lazy uniform CNOT Poisson process",
+  "exact_quantity": "single-column projected heat marginals",
+  "joint_matrix_heat": false,
+  "teacher_directory": "policy_iteration\\runs\\teacher_policy_v3",
+  "source_hashes": {
+    "train_diffusion_policy.py": "967adac9f8a613dbdfb2d430d177fde940b80f4f7140d591ddec9250d7065824",
+    "diffusion_features.py": "1a7bd01a55589fd66fa68dcb72e94e97c44f23a89d49455a9be81073604497f6"
+  }
+}

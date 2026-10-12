@@ -1,0 +1,4 @@
+interface:
+  display_name: "TRIZ for Code"
+  short_description: "Resolve software contradictions with TRIZ"
+  default_prompt: "Use $triz to resolve this software engineering contradiction and propose a testable implementation."

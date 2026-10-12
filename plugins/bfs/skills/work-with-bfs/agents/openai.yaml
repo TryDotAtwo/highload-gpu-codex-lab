@@ -1,0 +1,4 @@
+interface:
+  display_name: "BFS: математика"
+  short_description: "BFS: теоремы, доказательства, контрпримеры"
+  default_prompt: "Используй $work-with-bfs для математического разбора BFS с явными предпосылками и доказательствами."

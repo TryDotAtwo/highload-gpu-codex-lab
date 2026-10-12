@@ -1,0 +1,8 @@
+interface:
+  display_name: build blockscaled inference
+  short_description: Use when designing offline encoded FP8, MXFP8, MXFP4, or NVFP4
+    weights/scales and target-specific Blackwell block-scaled neural-inference kernels.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: work with molab
+  short_description: Use when connecting to, editing, executing, monitoring, recovering,
+    or collecting artifacts from a Molab-hosted marimo notebook or GPU sandbox.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

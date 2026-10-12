@@ -1,0 +1,21 @@
+{
+  "policy_iteration\\benchmark.py": "fcead1bc78da8a3154a0f529ac6d03ce75174bd3ffdfa4d1cb47b9f99750c8f6",
+  "policy_iteration\\data.py": "b1f996484998b1876d71120b379e3d6d646724f619830f2b9a7ee0461584d8a0",
+  "policy_iteration\\general_teacher.py": "cb6d63c27393ae7161dac5b87448f6a44bedc04f644dd7057742c01d9e43265f",
+  "policy_iteration\\model.py": "8d78877b0dbcf069e2ab03f22603cc61885c088252f4c9e9e921782cec18b194",
+  "policy_iteration\\search.py": "84cf660b3507e4d6dcc7c7ffffd7c0115dba79b80c0c226aba5f3c82dd64b7e9",
+  "policy_iteration\\test_contracts.py": "66d9ee8ebe7ff158d9f367d8a442621f1e0c3eb109805e18cd0341bf3482b921",
+  "policy_iteration\\train.py": "bd28dde8231172bf70e2e6a51d8d3ff483023e98f44285d362ba05494121f732",
+  "policy_iteration\\__init__.py": "ac8566d5d5a9d1912632be0bf6309d42a8dae8440ba000c465d06a93f5aa5fef",
+  "structured_field\\basis_transitions.py": "64ea31f1d6a6d6d5198249fa20201bc470ba09d887716f4a97a9a135b4a65020",
+  "structured_field\\beam.py": "77fb65bb6b7574bb484921585309efc4a86e83f1ac0ee9c5b657061300b5f560",
+  "structured_field\\benchmark.py": "f980b2f8c8f405e6f9556d8cc568f1ae92186da9294f369cee3d1958b400f305",
+  "structured_field\\data.py": "514fe172af6552dbe616033f32d7fc10c1fc952c4e6859f32ee4901d0df0e5b7",
+  "structured_field\\experiment.py": "8b3903110717534d20ae3b90f1c8f2e357b4de8e6658f14289dec522b7430034",
+  "structured_field\\gf2.py": "90a174384e1c8ab1f00f1df0eed3df789c04680ea73c82b82e848e26640d3ec9",
+  "structured_field\\model.py": "9ada2624c965fb7af21f80da101c752355b8e5f47a96462baabdbab3b4c07a10",
+  "structured_field\\objectives.py": "819d12197b1743c308c6a5e2520a175d6d04db1e207cb3caa18e6e35b13ed568",
+  "structured_field\\test_contracts.py": "9ac3862c31ddf702e1b196c2190e6f0cf4ac68118fb3d013f85e4bf5a21d7fb3",
+  "structured_field\\train.py": "63b28e3af19a8848162231461448a642848b651fe1ef9ae582cbe801147ca851",
+  "structured_field\\__init__.py": "5a25865079543cb1df2f3af970e47f496297ea65d37a06d1e69908d58458130d"
+}

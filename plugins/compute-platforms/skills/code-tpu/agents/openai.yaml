@@ -1,0 +1,9 @@
+interface:
+  display_name: code tpu
+  short_description: Use when writing, debugging or benchmarking Python/JAX/Pallas
+    programs on TPU, investigating TPU numerical or memory regressions, or maintaining
+    evidence from TPU experiments. Not for CUDA-only tuning.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

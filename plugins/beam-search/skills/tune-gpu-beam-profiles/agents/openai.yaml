@@ -1,0 +1,9 @@
+interface:
+  display_name: tune gpu beam profiles
+  short_description: Use when tuning beam width, outer candidate batch, inference
+    microbatch, accumulator chunks, ring slots, shards, concurrency, downstream job
+    count, or automatic beam profiles.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,242 @@
+{
+  "source_drift": [],
+  "missing_pinned": [],
+  "snapshot_errors": [],
+  "verified_words": [
+    {
+      "report": "structured_field/runs/replay_v4_comparison.json",
+      "case": "hgp_13_1",
+      "method": "hamming",
+      "count": 20
+    },
+    {
+      "report": "structured_field/runs/replay_v4_comparison.json",
+      "case": "hgp_13_1",
+      "method": "field_no_basis",
+      "count": 20
+    },
+    {
+      "report": "structured_field/runs/replay_v4_comparison.json",
+      "case": "hgp_13_1",
+      "method": "field_basis",
+      "count": 20
+    },
+    {
+      "report": "structured_field/runs/replay_v4_comparison.json",
+      "case": "hgp_25_1",
+      "method": "hamming",
+      "count": 44
+    },
+    {
+      "report": "structured_field/runs/replay_v4_comparison.json",
+      "case": "hgp_25_1",
+      "method": "field_no_basis",
+      "count": 51
+    },
+    {
+      "report": "structured_field/runs/replay_v4_comparison.json",
+      "case": "hgp_25_1",
+      "method": "field_basis",
+      "count": 51
+    },
+    {
+      "report": "structured_field/runs/replay_v4_comparison.json",
+      "case": "hgp_34_10",
+      "method": "hamming",
+      "count": 70
+    },
+    {
+      "report": "structured_field/runs/replay_v4_comparison.json",
+      "case": "hgp_34_10",
+      "method": "field_no_basis",
+      "count": 74
+    },
+    {
+      "report": "structured_field/runs/replay_v4_comparison.json",
+      "case": "hgp_34_10",
+      "method": "field_basis",
+      "count": 74
+    },
+    {
+      "report": "policy_iteration/runs/teacher_policy_v3/comparison.json",
+      "case": "hgp_13_1",
+      "method": "hamming",
+      "count": 20
+    },
+    {
+      "report": "policy_iteration/runs/teacher_policy_v3/comparison.json",
+      "case": "hgp_13_1",
+      "method": "action_head",
+      "count": 22
+    },
+    {
+      "report": "policy_iteration/runs/teacher_policy_v3/comparison.json",
+      "case": "hgp_13_1",
+      "method": "direct_field",
+      "count": 22
+    },
+    {
+      "report": "policy_iteration/runs/teacher_policy_v3/comparison.json",
+      "case": "hgp_25_1",
+      "method": "hamming",
+      "count": 44
+    },
+    {
+      "report": "policy_iteration/runs/teacher_policy_v3/comparison.json",
+      "case": "hgp_25_1",
+      "method": "action_head",
+      "count": 55
+    },
+    {
+      "report": "policy_iteration/runs/teacher_policy_v3/comparison.json",
+      "case": "hgp_25_1",
+      "method": "direct_field",
+      "count": 47
+    },
+    {
+      "report": "policy_iteration/runs/teacher_policy_v3/comparison.json",
+      "case": "hgp_34_10",
+      "method": "hamming",
+      "count": 70
+    },
+    {
+      "report": "policy_iteration/runs/teacher_policy_v3/comparison.json",
+      "case": "hgp_34_10",
+      "method": "action_head",
+      "count": 101
+    },
+    {
+      "report": "policy_iteration/runs/teacher_policy_v3/shortlist32.json",
+      "case": "hgp_13_1",
+      "method": "result",
+      "count": 22
+    },
+    {
+      "report": "policy_iteration/runs/teacher_policy_v3/shortlist32.json",
+      "case": "hgp_25_1",
+      "method": "result",
+      "count": 51
+    },
+    {
+      "report": "policy_iteration/runs/teacher_policy_v3/shortlist32.json",
+      "case": "hgp_34_10",
+      "method": "result",
+      "count": 91
+    },
+    {
+      "report": "policy_iteration/runs/walk_heat_on_v1/comparison.json",
+      "case": "hgp_13_1",
+      "method": "hamming",
+      "count": 20
+    },
+    {
+      "report": "policy_iteration/runs/walk_heat_on_v1/comparison.json",
+      "case": "hgp_13_1",
+      "method": "action_head",
+      "count": 21
+    },
+    {
+      "report": "policy_iteration/runs/walk_heat_on_v1/comparison.json",
+      "case": "hgp_25_1",
+      "method": "hamming",
+      "count": 44
+    },
+    {
+      "report": "policy_iteration/runs/walk_heat_on_v1/comparison.json",
+      "case": "hgp_25_1",
+      "method": "action_head",
+      "count": 54
+    },
+    {
+      "report": "policy_iteration/runs/walk_heat_on_v1/comparison.json",
+      "case": "hgp_34_10",
+      "method": "hamming",
+      "count": 70
+    },
+    {
+      "report": "policy_iteration/runs/walk_heat_on_v1/comparison.json",
+      "case": "hgp_34_10",
+      "method": "action_head",
+      "count": 102
+    },
+    {
+      "report": "policy_iteration/runs/walk_heat_off_v1/comparison.json",
+      "case": "hgp_13_1",
+      "method": "hamming",
+      "count": 20
+    },
+    {
+      "report": "policy_iteration/runs/walk_heat_off_v1/comparison.json",
+      "case": "hgp_13_1",
+      "method": "action_head",
+      "count": 21
+    },
+    {
+      "report": "policy_iteration/runs/walk_heat_off_v1/comparison.json",
+      "case": "hgp_25_1",
+      "method": "hamming",
+      "count": 44
+    },
+    {
+      "report": "policy_iteration/runs/walk_heat_off_v1/comparison.json",
+      "case": "hgp_25_1",
+      "method": "action_head",
+      "count": 54
+    },
+    {
+      "report": "policy_iteration/runs/walk_heat_off_v1/comparison.json",
+      "case": "hgp_34_10",
+      "method": "hamming",
+      "count": 70
+    },
+    {
+      "report": "policy_iteration/runs/walk_heat_off_v1/comparison.json",
+      "case": "hgp_34_10",
+      "method": "action_head",
+      "count": 102
+    },
+    {
+      "report": "policy_iteration/runs/walk_heat_on_v1/large.json",
+      "case": "hgp_58_16",
+      "method": "hamming",
+      "count": 159
+    },
+    {
+      "report": "policy_iteration/runs/walk_heat_on_v1/large.json",
+      "case": "hgp_58_16",
+      "method": "action_head",
+      "count": 234
+    }
+  ],
+  "failures": [
+    {
+      "report": "policy_iteration/runs/teacher_policy_v3/comparison.json",
+      "case": "hgp_34_10",
+      "method": "direct_field",
+      "reason": "depth_limit"
+    },
+    {
+      "report": "policy_iteration/runs/walk_heat_on_v1/large.json",
+      "case": "bb_72_12_6",
+      "method": "hamming",
+      "reason": "depth_limit"
+    },
+    {
+      "report": "policy_iteration/runs/walk_heat_on_v1/large.json",
+      "case": "bb_72_12_6",
+      "method": "action_head",
+      "reason": "depth_limit"
+    }
+  ],
+  "pending": [
+    "policy_iteration/runs/walk_heat_off_v1/large.json"
+  ],
+  "paired_files": {
+    "replay_initial.json": true,
+    "validation.json": true,
+    "walk_heat_profiles.json": true
+  },
+  "errors": [],
+  "scope": "SHA-256 of pinned files; independent full-matrix multiplication of recognized newer comparison words; byte equality of paired initial data. Does not load weights, retest training, certify optimality, or verify every historical replay word.",
+  "ok": true
+}

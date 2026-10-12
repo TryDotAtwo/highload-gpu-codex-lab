@@ -1,0 +1,8 @@
+interface:
+  display_name: benchmark gpu inference
+  short_description: Use when tuning model microbatch, inference concurrency, execution
+    slots, streams, CUDA Graphs, library backends, or isolated MLP/Transformer throughput.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

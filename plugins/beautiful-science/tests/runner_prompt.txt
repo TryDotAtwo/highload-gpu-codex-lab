@@ -1,0 +1,6 @@
+Controlled CONDITION test: read scenarios.json. Act as the research decision-maker for each independent scenario. Give a concrete decision and reasoning for each prompt in 100–160 words, preserving material nuance. Treat supplied facts as scenario facts, not facts you independently verified. Save a JSON array of {id, response} to OUTPUT. Do not inspect the rubric, earlier responses or test reports, and do not spawn agents.
+
+CONDITION=baseline: No task-specific scientific-decision skill or rubric is available; read only scenarios.json.
+CONDITION=guided: Read skills/choose-research-path/SKILL.md first and relevant linked references; then use it to answer scenarios.json.
+
+Allowed actions: read the specified local source files, write OUTPUT. No experiments, communications, purchases, installation or research-job mutation.

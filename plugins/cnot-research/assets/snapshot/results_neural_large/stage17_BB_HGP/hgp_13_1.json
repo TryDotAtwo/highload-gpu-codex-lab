@@ -1,0 +1,99 @@
+{
+  "family": "stage17_BB_HGP",
+  "case": "hgp_13_1",
+  "n": 13,
+  "before": 19,
+  "after": 19,
+  "seconds": 0.00031599999056197703,
+  "stats": {
+    "calls": 0,
+    "replacements": 0,
+    "cache_entries": 0,
+    "verified_full_matrix": true
+  },
+  "hamming_after": 19,
+  "hamming_stats": {
+    "calls": 0,
+    "replacements": 0,
+    "cache_entries": 0,
+    "verified_full_matrix": true
+  },
+  "gates": [
+    [
+      8,
+      6
+    ],
+    [
+      8,
+      7
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      8
+    ],
+    [
+      5,
+      8
+    ],
+    [
+      0,
+      9
+    ],
+    [
+      1,
+      9
+    ],
+    [
+      1,
+      10
+    ],
+    [
+      2,
+      10
+    ],
+    [
+      0,
+      11
+    ],
+    [
+      3,
+      11
+    ],
+    [
+      4,
+      11
+    ],
+    [
+      2,
+      12
+    ],
+    [
+      4,
+      12
+    ],
+    [
+      5,
+      12
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      1,
+      4
+    ]
+  ]
+}

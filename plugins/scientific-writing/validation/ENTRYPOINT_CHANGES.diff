@@ -1,0 +1,86 @@
+--- plugins/clear-russian-writing/skills/write-clear-russian/SKILL.md	2026-10-01 17:47:08.650514618 +0300
++++ plugins/scientific-writing/skills/write-clear-explanations/SKILL.md	2026-10-01 18:47:23.251732154 +0300
+@@ -1,38 +1,34 @@
+ ---
+-name: write-clear-russian
+-description: Use when writing or revising Russian popular-science explanations, educational prose, or children's nonfiction, especially when technically correct text feels disconnected, stiff, overexplained, or difficult to follow. Also applies to «пиши понятнее», «живой русский научпоп», «сохрани глубину, исправь язык». Not for a spelling-only correction or an unrelated chat reply.
++name: write-clear-explanations
++description: Use when writing or substantially revising explanations in articles, books, reports, educational prose, or nonfiction in any language, especially when accurate text feels disconnected, stiff, repetitive, or difficult to follow. Not for spelling-only corrections or unrelated short chat replies.
+ ---
+ 
+-# Ясная русская научно-популярная проза
++# Write clear explanations
+ 
+-Пиши так, чтобы читатель мог пройти рассуждение сам. Понятность достигается нужными подробностями, связями и примерами. Возраст читателя определяет опоры, а не разрешение выбросить трудную мысль.
++Let readers reconstruct the reasoning. Supply the relevant detail, connections, and examples without deleting technical depth. Audience knowledge determines the support needed, not which true claims may be discarded.
+ 
+-## Перед текстом
++## Scope and preparation
+ 
+-Установи задачу, читателя, что ему уже известно и какой результат нужен. Используй данные запроса; уточняй только пробел, меняющий объяснение. При редактировании выпиши для себя сохраняемые утверждения: факты, определения, формулы, числа, примеры, предпосылки, область действия, различия и нерешённые вопросы. Список не становится частью рассказа.
++For preparation or substantial editing of an article, book, report, or LaTeX manuscript, **also use work-with-prism**. Its real project-and-assistant workflow is required; reading local instructions does not satisfy it. Ordinary short answers, sentence-level edits, and spelling corrections do not trigger that workflow by themselves.
+ 
+-Прочитай [приёмы](references/techniques.md). Для текста с вычислениями или опытом прочитай [проверку смыслов](references/fidelity.md). Если выбираешь между двумя редакциями, используй [примеры](references/examples.md). Источники и пределы прочитанного доступны в [библиографии](references/reading.md); перечитывать всю библиографию при каждой правке не требуется.
++Establish purpose, audience, known background, requested language, and editing boundaries from the request. Ask only about missing information that changes the work. For revision, map the claims to preserve: definitions, facts, formulas, examples, quantities, hypotheses, domains, distinctions, and unresolved questions. Keep this editorial map outside the reader-facing prose.
+ 
+-## Построй ход объяснения
++Read [meaning fidelity](references/fidelity.md) for substantive revision. Read [language routing](references/languages.md) before applying language-specific norms. For scientific claims and figures also use write-visual-research-papers; for English/Russian sentence-level cleanup use technical-style-editor. These roles complement one another; style review does not establish scientific truth.
+ 
+-При глубокой редакции сначала собери объяснение заново из сохраняемых смыслов: какой вопрос ведёт каждый эпизод и какой результат нужен следующему? Сохранение содержания не требует сохранять порядок исходных абзацев. Если идут две линии, например вычисление и оценка его красоты, дай первой накопить материал, на который сможет опереться вторая. При точечной правке соблюдай заданные границы.
++## Build the explanation
+ 
+-Выбери вопрос, наблюдение или задачу, действительно ведущие к выводу. В уже начавшемся объяснении продолжай прежний предмет; отдельная завязка для каждого абзаца не нужна.
++For substantial revision, rebuild the explanation from preserved meanings: what question drives each episode, and which result does the next need? Content preservation does not require preserving paragraph order. For a narrow edit, keep the requested boundary.
+ 
+-Вводи предмет до действия с ним, условие до вывода, обозначение при первом употреблении. Покажи переход, на котором читателю пришлось бы угадывать: что меняется, что сохраняется и почему получается следующий результат. Формула остаётся в тексте; рядом раскрой смысл её частей и существенных операций. Один разобранный случай может подготовить общее рассуждение, но не заменяет доказательства.
++Introduce the object before acting on it, the condition before the conclusion, and a symbol when first used. Show the transition a reader would otherwise have to guess: what changes, what stays fixed, and why the next step follows. Keep formulas and explain the meaningful operations beside them. A worked case prepares a general argument; it does not replace proof.
+ 
+-Абзац продвигает понимание. Следующий опирается на уже названный предмет или результат. Сохраняй его название, когда синоним или местоимение заставили бы угадывать. Для длинного объяснения проверь, как новый случай меняет или расширяет предыдущий вывод. Заключение отвечает на исходный вопрос, а не объявляет тему увлекательной.
++Each paragraph advances understanding using an object or result already established. Retain a stable term when synonyms or pronouns would hide its identity. A new example should test a boundary, reveal an exception, or prepare a generalization. The conclusion answers the actual question.
+ 
+-## Сделай прозу естественной
++## Write for the reader
+ 
+-Отдавай действие конкретному предмету: кто нагревается, что сравниваем, какую длину делим. Чередуй фразы по движению мысли. Длинная связная фраза лучше нескольких обрубков, если читатель видит её устройство. У текста нет нормы слов в предложении, квоты вопросов или обязательного диалога.
++Give actions concrete subjects. Vary sentence structure with the thought rather than enforcing a word count, dialogue, or question quota. Preserve natural syntax in the requested language. Put conditions where their claims operate. Distinguish proposed actions and expected outcomes from observations that actually occurred. Once a necessary limitation is clear, advance the explanation rather than repeating the compliance checklist.
+ 
+-Пиши для читателя, которому не показывали редакторское задание. В каждом эпизоде он получает предмет, действие или факт и объяснение того, что из них следует. Условие включай в само утверждение: «При одинаковой силе…», «В этой группе к пятому дню…». Если описываешь будущий опыт, веди его как последовательность предложенных действий и ожидаемых при названных условиях результатов. Если сообщаешь состоявшийся опыт, называй наблюдение и предел вывода. После установленной границы переходи к следующей мысли или заканчивай эпизод.
++## Read and verify
+ 
+-## Прочитай и проверь
++Read the complete passage without the editorial checklist first. Can the reader follow the subject and purpose of each step? Then compare meanings, formulas, conditions, references, and figures against the source. After reordering episodes, verify their inherited conditions. Repetition needs a new job: preventing ambiguity, carrying a needed premise, or changing the conclusion.
+ 
+-Сначала прочитай отрывок целиком без списка требований: можно ли следить за предметом, зачем сделан каждый шаг, есть ли место, которое приходится перечитывать? Затем сверь сохранённые смыслы, формулы, условия, ссылки «это/такой/он» и работу рисунков. Перечитай готовый текст как самостоятельную страницу, без задания рядом. Для каждого возвращения к уже названным условиям установи его новую работу: без него изменяется вывод, возникает двусмысленность или теряется предмет? Если новой работы нет, закончи мысль раньше. Перепроверь, что необходимые границы сохранились в действующих утверждениях.
+-
+-Если найдена содержательная ошибка источника, не маскируй её стилистикой: укажи отдельно и предложи проверяемую поправку. Сомнение в факте не превращай в уверенный вымысел.
+-
+-Выдай запрошенный текст. При существенных изменениях добавь короткую редакторскую заметку, если она нужна пользователю. Проверка по списку — помощь редактору; читательская ясность устанавливается чтением и обратной связью, а не словом PASS.
++Report substantive source errors separately and propose a checkable correction. Deliver the requested prose, with a brief editorial note only when useful. Checklist completion does not establish reader comprehension; keep actual reader feedback distinct from editorial judgment.
+
+--- paper-writing-plugin-package-v1.0.1/write-visual-research-papers/skills/write-visual-research-papers/SKILL.md	2026-09-30 19:46:03.178029985 +0300
++++ plugins/scientific-writing/skills/write-visual-research-papers/SKILL.md	2026-10-01 18:54:27.900055059 +0300
+@@ -7,6 +7,10 @@
+ 
+ Make the result, exact model, assumptions, and strength of evidence clear immediately. Explain the argument with substantive diagrams, equations, tables, and compact prose beside the step they explain. Preserve technical depth; remove repetition rather than mathematical substance.
+ 
++## Manuscript workflow integration
++
++For preparation or substantial editing of an article, book, report, or LaTeX manuscript, **also use work-with-prism** from this plugin. Real project-assistant work must be bound to the reviewed source version. Local reading is not Prism work. The local PDF fallback in delivery.md can supply a labeled final artifact after real Prism work on the relevant source version; it cannot replace an uncompleted mandatory Prism stage. A remote PDF is required only when the user requests it. For explanatory structure use write-clear-explanations. Keep the specialized evidence, language, and QA rules below; these complementary skills do not replace them. Ordinary short chat replies and isolated sentence/spelling corrections do not trigger the manuscript workflow by themselves.
++
+ ## Required workflow
+ 
+ 1. Read [workflow.md](references/workflow.md). Inspect the actual source, data, code, proof artifacts, and approved examples before editing. Treat examples as presentation references, never as reusable results or fixed figure counts.
+
+--- user-plugins-import/unpacked/plugins/logic/technical-style-editor/0.3.0/skills/technical-style-editor/SKILL.md	2026-09-30 17:22:01.580919110 +0300
++++ plugins/scientific-writing/skills/technical-style-editor/SKILL.md	2026-10-01 18:48:48.014189000 +0300
+@@ -32,6 +32,10 @@
+ Script and reference paths are relative to this skill directory. Use Python 3.9
+ or newer to run the script; the editorial instructions also work without it.
+ 
++## Manuscript workflow integration
++
++For preparation or substantial editing of an article, book, report, or LaTeX manuscript, **also use work-with-prism** from this plugin. Real project-assistant work must be bound to the reviewed source version. Local reading is not Prism work. For explanatory structure use write-clear-explanations. Keep the specialized evidence, language, and QA rules below; these complementary skills do not replace them. Ordinary short chat replies and isolated sentence/spelling corrections do not trigger the manuscript workflow by themselves.
++
+ ## Sustained source-formalization workflow (2026-09-24)
+ 
+ For ongoing technical or formalization status documents, maintain one concise current state and separate dated history. Replace superseded present-tense claims; preserve their history when relevant. A growing stack of contradictory progress paragraphs is not a usable current status.

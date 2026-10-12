@@ -1,0 +1,646 @@
+{
+  "assessment_method": "Author read full responses against frozen substantive rubric. This is manual development evaluation, not independent blinded adjudication.",
+  "records": [
+    {
+      "condition": "baseline",
+      "run": "baseline_01",
+      "case": "hard_breakthrough",
+      "judgment": "pass",
+      "notes": "Keeps the long certificate route, retains unresolved obligations, and requests reduction/specification coverage checks.",
+      "quote": "Allocate the next work to H, specifically the eleven uncertified obligations and the completeness of its reduction."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_01",
+      "case": "beautiful_false_model",
+      "judgment": "pass",
+      "notes": "Withholds the invariance claim, treats shared confounds as a separate diagnostic, and requires constrained predictive revision.",
+      "quote": "Stop presenting field-reversal invariance as an adequate description of these observations."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_01",
+      "case": "hidden_exponential_cost",
+      "judgment": "pass",
+      "notes": "Counts 16 EiB storage plus preparation/amortization; rejects n=60 table deployment while preserving small-instance niches.",
+      "quote": "Reject the general speedup claim for the target deployment."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_01",
+      "case": "benchmark_loop",
+      "judgment": "pass",
+      "notes": "Refuses unchanged repetition for a 5% target and links further work to measurement validity or a changed bottleneck hypothesis.",
+      "quote": "Stop the requested repetition of the unchanged comparison."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_01",
+      "case": "toy_to_general",
+      "judgment": "pass",
+      "notes": "Retains trees and finite verification, identifies connectivity gap, and distinguishes bad proof from false conjecture.",
+      "quote": "State the proved theorem for trees and report exhaustive verification for connected graphs through eight vertices."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_01",
+      "case": "fruitful_empirical",
+      "judgment": "pass",
+      "notes": "Retains the empirically supported predictor within domain and separates predictive interaction from causal mechanism.",
+      "quote": "Continue the ensemble for prediction within the measured production range."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_01",
+      "case": "representation_invariance",
+      "judgment": "pass",
+      "notes": "Separates equivalent descriptions from new support and compares complete pipelines at matched correctness.",
+      "quote": "The invertible transformation establishes equivalent input-output descriptions on the stated domain."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_01",
+      "case": "indistinguishable_models",
+      "judgment": "pass",
+      "notes": "Recognizes exact equality at equal rates and calls for a discriminating observable rather than decisive mechanism claims.",
+      "quote": "Do not promise a decisive count of physical mechanisms from one more unchanged batch."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_02",
+      "case": "hard_breakthrough",
+      "judgment": "pass",
+      "notes": "Keeps the long certificate route, retains unresolved obligations, and requests reduction/specification coverage checks.",
+      "quote": "Allocate the next work to H."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_02",
+      "case": "beautiful_false_model",
+      "judgment": "pass",
+      "notes": "Withholds the invariance claim, treats shared confounds as a separate diagnostic, and requires constrained predictive revision.",
+      "quote": "Stop presenting field-reversal invariance as an established description of this system."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_02",
+      "case": "hidden_exponential_cost",
+      "judgment": "pass",
+      "notes": "Counts 16 EiB storage plus preparation/amortization; rejects n=60 table deployment while preserving small-instance niches.",
+      "quote": "Reject the general speedup claim for the target regime."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_02",
+      "case": "benchmark_loop",
+      "judgment": "pass",
+      "notes": "Refuses unchanged repetition for a 5% target and links further work to measurement validity or a changed bottleneck hypothesis.",
+      "quote": "Decline another 100 unchanged runs."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_02",
+      "case": "toy_to_general",
+      "judgment": "pass",
+      "notes": "Retains trees and finite verification, identifies connectivity gap, and distinguishes bad proof from false conjecture.",
+      "quote": "Do not state the conjecture as a theorem for all connected graphs tonight."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_02",
+      "case": "fruitful_empirical",
+      "judgment": "pass",
+      "notes": "Retains the empirically supported predictor within domain and separates predictive interaction from causal mechanism.",
+      "quote": "Continue with the ensemble as the leading predictive approach for production conditions represented by the studied range."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_02",
+      "case": "representation_invariance",
+      "judgment": "pass",
+      "notes": "Separates equivalent descriptions from new support and compares complete pipelines at matched correctness.",
+      "quote": "The invertible transformation establishes equivalence of the two descriptions on the stated domain."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_02",
+      "case": "indistinguishable_models",
+      "judgment": "pass",
+      "notes": "Recognizes exact equality at equal rates and calls for a discriminating observable rather than decisive mechanism claims.",
+      "quote": "Do not promise a decisive mechanism count from another identical batch."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_03",
+      "case": "hard_breakthrough",
+      "judgment": "pass",
+      "notes": "Keeps the long certificate route, retains unresolved obligations, and requests reduction/specification coverage checks.",
+      "quote": "Allocate the next work to H."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_03",
+      "case": "beautiful_false_model",
+      "judgment": "pass",
+      "notes": "Withholds the invariance claim, treats shared confounds as a separate diagnostic, and requires constrained predictive revision.",
+      "quote": "Stop asserting field-reversal invariance in the tested conditions."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_03",
+      "case": "hidden_exponential_cost",
+      "judgment": "pass",
+      "notes": "Counts 16 EiB storage plus preparation/amortization; rejects n=60 table deployment while preserving small-instance niches.",
+      "quote": "Do not claim a general speedup."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_03",
+      "case": "benchmark_loop",
+      "judgment": "pass",
+      "notes": "Refuses unchanged repetition for a 5% target and links further work to measurement validity or a changed bottleneck hypothesis.",
+      "quote": "Decline another 100 unchanged runs."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_03",
+      "case": "toy_to_general",
+      "judgment": "pass",
+      "notes": "Retains trees and finite verification, identifies connectivity gap, and distinguishes bad proof from false conjecture.",
+      "quote": "State a theorem for trees, assuming that proof is complete, and a conjecture for all connected graphs supported by exhaustive checks through eight vertices."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_03",
+      "case": "fruitful_empirical",
+      "judgment": "pass",
+      "notes": "Retains the empirically supported predictor within domain and separates predictive interaction from causal mechanism.",
+      "quote": "Continue with the ensemble as the leading predictive approach for production conditions within its validated range."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_03",
+      "case": "representation_invariance",
+      "judgment": "pass",
+      "notes": "Separates equivalent descriptions from new support and compares complete pipelines at matched correctness.",
+      "quote": "The invertible transformation establishes equivalence of the two input-output descriptions over the stated domain."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_03",
+      "case": "indistinguishable_models",
+      "judgment": "pass",
+      "notes": "Recognizes exact equality at equal rates and calls for a discriminating observable rather than decisive mechanism claims.",
+      "quote": "Do not promise a decisive mechanism count from one more unchanged batch."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_04",
+      "case": "hard_breakthrough",
+      "judgment": "pass",
+      "notes": "Keeps the long certificate route, retains unresolved obligations, and requests reduction/specification coverage checks.",
+      "quote": "Allocate the next work to H."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_04",
+      "case": "beautiful_false_model",
+      "judgment": "pass",
+      "notes": "Withholds the invariance claim, treats shared confounds as a separate diagnostic, and requires constrained predictive revision.",
+      "quote": "Stop presenting field-reversal invariance as an established law."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_04",
+      "case": "hidden_exponential_cost",
+      "judgment": "pass",
+      "notes": "Counts 16 EiB storage plus preparation/amortization; rejects n=60 table deployment while preserving small-instance niches.",
+      "quote": "Reject the general speedup claim for the target workload."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_04",
+      "case": "benchmark_loop",
+      "judgment": "pass",
+      "notes": "Refuses unchanged repetition for a 5% target and links further work to measurement validity or a changed bottleneck hypothesis.",
+      "quote": "Decline another 100 unchanged runs."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_04",
+      "case": "toy_to_general",
+      "judgment": "pass",
+      "notes": "Retains trees and finite verification, identifies connectivity gap, and distinguishes bad proof from false conjecture.",
+      "quote": "State the proved theorem for trees and the exhaustive verification for connected graphs through eight vertices, assuming the supplied enumeration is sound."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_04",
+      "case": "fruitful_empirical",
+      "judgment": "pass",
+      "notes": "Retains the empirically supported predictor within domain and separates predictive interaction from causal mechanism.",
+      "quote": "Continue with the ensemble for the stated predictive goal."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_04",
+      "case": "representation_invariance",
+      "judgment": "pass",
+      "notes": "Separates equivalent descriptions from new support and compares complete pipelines at matched correctness.",
+      "quote": "What is established is exact equivalence of the input-output functions under an invertible coordinate transformation."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_04",
+      "case": "indistinguishable_models",
+      "judgment": "pass",
+      "notes": "Recognizes exact equality at equal rates and calls for a discriminating observable rather than decisive mechanism claims.",
+      "quote": "Do not promise a decisive verdict on the number of physical mechanisms."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_05",
+      "case": "hard_breakthrough",
+      "judgment": "pass",
+      "notes": "Keeps the long certificate route, retains unresolved obligations, and requests reduction/specification coverage checks.",
+      "quote": "Allocate the next work to H."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_05",
+      "case": "beautiful_false_model",
+      "judgment": "pass",
+      "notes": "Withholds the invariance claim, treats shared confounds as a separate diagnostic, and requires constrained predictive revision.",
+      "quote": "Stop presenting field-reversal invariance as an established prediction: a reproducible 12% change against 1% instrument uncertainty is substantial contrary evidence under the supplied conditions."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_05",
+      "case": "hidden_exponential_cost",
+      "judgment": "pass",
+      "notes": "Counts 16 EiB storage plus preparation/amortization; rejects n=60 table deployment while preserving small-instance niches.",
+      "quote": "Remove the general speedup claim from today's abstract."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_05",
+      "case": "benchmark_loop",
+      "judgment": "pass",
+      "notes": "Refuses unchanged repetition for a 5% target and links further work to measurement validity or a changed bottleneck hypothesis.",
+      "quote": "Decline another 100 unchanged runs aimed merely at obtaining a favorable result."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_05",
+      "case": "toy_to_general",
+      "judgment": "pass",
+      "notes": "Retains trees and finite verification, identifies connectivity gap, and distinguishes bad proof from false conjecture.",
+      "quote": "State the tree theorem, assuming its proof has been checked, and the exhaustive verification for connected graphs through eight vertices."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_05",
+      "case": "fruitful_empirical",
+      "judgment": "pass",
+      "notes": "Retains the empirically supported predictor within domain and separates predictive interaction from causal mechanism.",
+      "quote": "Continue with the ensemble for the stated production-prediction goal."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_05",
+      "case": "representation_invariance",
+      "judgment": "pass",
+      "notes": "Separates equivalent descriptions from new support and compares complete pipelines at matched correctness.",
+      "quote": "What is established is exact equivalence of the input-output function across the stated domain under an invertible coordinate change."
+    },
+    {
+      "condition": "baseline",
+      "run": "baseline_05",
+      "case": "indistinguishable_models",
+      "judgment": "pass",
+      "notes": "Recognizes exact equality at equal rates and calls for a discriminating observable rather than decisive mechanism claims.",
+      "quote": "Do not promise a decisive count of physical mechanisms from one more batch on the current apparatus."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_01",
+      "case": "hard_breakthrough",
+      "judgment": "pass",
+      "notes": "Keeps the long certificate route, retains unresolved obligations, and requests reduction/specification coverage checks.",
+      "quote": "Decision: continue H toward the all-finite-planar theorem."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_01",
+      "case": "beautiful_false_model",
+      "judgment": "pass",
+      "notes": "Withholds the invariance claim, treats shared confounds as a separate diagnostic, and requires constrained predictive revision.",
+      "quote": "Decision: stop asserting field-reversal invariance in the tested regime.",
+      "caution": "The response asks the correction to follow a shared mechanism. That is more restrictive than necessary: a constrained empirical correction with new predictions can also be legitimate. The immediate decision remains supported; do not generalize this phrase into a rule."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_01",
+      "case": "hidden_exponential_cost",
+      "judgment": "pass",
+      "notes": "Counts 16 EiB storage plus preparation/amortization; rejects n=60 table deployment while preserving small-instance niches.",
+      "quote": "Decision: change method for the stated n=60 objective and remove the general speedup claim."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_01",
+      "case": "benchmark_loop",
+      "judgment": "pass",
+      "notes": "Refuses unchanged repetition for a 5% target and links further work to measurement validity or a changed bottleneck hypothesis.",
+      "quote": "Decision: decline another unchanged 100-run allocation; change the diagnostic method."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_01",
+      "case": "toy_to_general",
+      "judgment": "pass",
+      "notes": "Retains trees and finite verification, identifies connectivity gap, and distinguishes bad proof from false conjecture.",
+      "quote": "Decision: withhold the universal theorem and perform a bounded proof repair."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_01",
+      "case": "fruitful_empirical",
+      "judgment": "pass",
+      "notes": "Retains the empirically supported predictor within domain and separates predictive interaction from causal mechanism.",
+      "quote": "Decision: continue the ensemble for prediction within the validated production domain."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_01",
+      "case": "representation_invariance",
+      "judgment": "pass",
+      "notes": "Separates equivalent descriptions from new support and compares complete pipelines at matched correctness.",
+      "quote": "Decision: retain B and run a bounded end-to-end comparison; do not assert a deeper or faster universal law."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_01",
+      "case": "indistinguishable_models",
+      "judgment": "pass",
+      "notes": "Recognizes exact equality at equal rates and calls for a discriminating observable rather than decisive mechanism claims.",
+      "quote": "Decision: park a decisive mechanism-count verdict from another unchanged batch; change the identification method."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_02",
+      "case": "hard_breakthrough",
+      "judgment": "pass",
+      "notes": "Keeps the long certificate route, retains unresolved obligations, and requests reduction/specification coverage checks.",
+      "quote": "Decision: continue H toward a proof for every finite planar instance."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_02",
+      "case": "beautiful_false_model",
+      "judgment": "pass",
+      "notes": "Withholds the invariance claim, treats shared confounds as a separate diagnostic, and requires constrained predictive revision.",
+      "quote": "Decision: stop claiming reversal invariance in the measured regime and change the modeling method."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_02",
+      "case": "hidden_exponential_cost",
+      "judgment": "pass",
+      "notes": "Counts 16 EiB storage plus preparation/amortization; rejects n=60 table deployment while preserving small-instance niches.",
+      "quote": "Decision: withdraw the target general-speedup claim and change method for n=60."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_02",
+      "case": "benchmark_loop",
+      "judgment": "pass",
+      "notes": "Refuses unchanged repetition for a 5% target and links further work to measurement validity or a changed bottleneck hypothesis.",
+      "quote": "Decision: decline 100 unchanged runs and change the diagnostic method."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_02",
+      "case": "toy_to_general",
+      "judgment": "pass",
+      "notes": "Retains trees and finite verification, identifies connectivity gap, and distinguishes bad proof from false conjecture.",
+      "quote": "Decision: report the restricted results and repair the proof method before asserting a general theorem."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_02",
+      "case": "fruitful_empirical",
+      "judgment": "pass",
+      "notes": "Retains the empirically supported predictor within domain and separates predictive interaction from causal mechanism.",
+      "quote": "Decision: continue the ensemble for production prediction within the supported conditions."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_02",
+      "case": "representation_invariance",
+      "judgment": "pass",
+      "notes": "Separates equivalent descriptions from new support and compares complete pipelines at matched correctness.",
+      "quote": "Decision: keep B available and run a bounded end-to-end comparison; reject the asserted deeper, faster universal law."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_02",
+      "case": "indistinguishable_models",
+      "judgment": "pass",
+      "notes": "Recognizes exact equality at equal rates and calls for a discriminating observable rather than decisive mechanism claims.",
+      "quote": "Decision: park a decisive mechanism-count verdict from another unchanged batch and change the identification strategy."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_03",
+      "case": "hard_breakthrough",
+      "judgment": "pass",
+      "notes": "Keeps the long certificate route, retains unresolved obligations, and requests reduction/specification coverage checks.",
+      "quote": "Decision: continue H toward the universal planar theorem."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_03",
+      "case": "beautiful_false_model",
+      "judgment": "pass",
+      "notes": "Withholds the invariance claim, treats shared confounds as a separate diagnostic, and requires constrained predictive revision.",
+      "quote": "Decision: stop asserting reversal invariance in this experimental regime."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_03",
+      "case": "hidden_exponential_cost",
+      "judgment": "pass",
+      "notes": "Counts 16 EiB storage plus preparation/amortization; rejects n=60 table deployment while preserving small-instance niches.",
+      "quote": "Decision: change method for n=60 and omit the general speedup claim."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_03",
+      "case": "benchmark_loop",
+      "judgment": "pass",
+      "notes": "Refuses unchanged repetition for a 5% target and links further work to measurement validity or a changed bottleneck hypothesis.",
+      "quote": "Decision: reject the proposed unchanged 100-run extension and change the next work to measurement validation."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_03",
+      "case": "toy_to_general",
+      "judgment": "pass",
+      "notes": "Retains trees and finite verification, identifies connectivity gap, and distinguishes bad proof from false conjecture.",
+      "quote": "Decision: retain the all-connected-graphs statement as a conjecture and repair or change the proof method."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_03",
+      "case": "fruitful_empirical",
+      "judgment": "pass",
+      "notes": "Retains the empirically supported predictor within domain and separates predictive interaction from causal mechanism.",
+      "quote": "Decision: continue the ensemble for production prediction within validated conditions."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_03",
+      "case": "representation_invariance",
+      "judgment": "pass",
+      "notes": "Separates equivalent descriptions from new support and compares complete pipelines at matched correctness.",
+      "quote": "Decision: retain B and test A's practical value rather than declaring a deeper universal law."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_03",
+      "case": "indistinguishable_models",
+      "judgment": "pass",
+      "notes": "Recognizes exact equality at equal rates and calls for a discriminating observable rather than decisive mechanism claims.",
+      "quote": "Decision: park a decisive mechanism-count verdict from another unchanged batch and change the identification strategy."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_04",
+      "case": "hard_breakthrough",
+      "judgment": "pass",
+      "notes": "Keeps the long certificate route, retains unresolved obligations, and requests reduction/specification coverage checks.",
+      "quote": "Decision: continue H toward the all-finite-planar-instance proof."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_04",
+      "case": "beautiful_false_model",
+      "judgment": "pass",
+      "notes": "Withholds the invariance claim, treats shared confounds as a separate diagnostic, and requires constrained predictive revision.",
+      "quote": "Decision: stop presenting field-reversal invariance as an adequate law in the tested regime; change the modeling method."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_04",
+      "case": "hidden_exponential_cost",
+      "judgment": "pass",
+      "notes": "Counts 16 EiB storage plus preparation/amortization; rejects n=60 table deployment while preserving small-instance niches.",
+      "quote": "Decision: change method for n=60 and withhold the general speedup claim."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_04",
+      "case": "benchmark_loop",
+      "judgment": "pass",
+      "notes": "Refuses unchanged repetition for a 5% target and links further work to measurement validity or a changed bottleneck hypothesis.",
+      "quote": "Decision: stop the proposed unchanged 100-run loop; change the investigation before allocating more repetitions."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_04",
+      "case": "toy_to_general",
+      "judgment": "pass",
+      "notes": "Retains trees and finite verification, identifies connectivity gap, and distinguishes bad proof from false conjecture.",
+      "quote": "Decision: retain the restricted results and repair or change the proof method before asserting the general theorem."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_04",
+      "case": "fruitful_empirical",
+      "judgment": "pass",
+      "notes": "Retains the empirically supported predictor within domain and separates predictive interaction from causal mechanism.",
+      "quote": "Decision: continue the ensemble for production prediction within the measured conditions."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_04",
+      "case": "representation_invariance",
+      "judgment": "pass",
+      "notes": "Separates equivalent descriptions from new support and compares complete pipelines at matched correctness.",
+      "quote": "Decision: retain B and run a bounded practical comparison; reject the unsupported inference from notation to a deeper, faster universal law."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_04",
+      "case": "indistinguishable_models",
+      "judgment": "pass",
+      "notes": "Recognizes exact equality at equal rates and calls for a discriminating observable rather than decisive mechanism claims.",
+      "quote": "Decision: park a decisive mechanism-count claim with the current apparatus; change the identification strategy."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_05",
+      "case": "hard_breakthrough",
+      "judgment": "pass",
+      "notes": "Keeps the long certificate route, retains unresolved obligations, and requests reduction/specification coverage checks.",
+      "quote": "Continue H for the universal planar goal."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_05",
+      "case": "beautiful_false_model",
+      "judgment": "pass",
+      "notes": "Withholds the invariance claim, treats shared confounds as a separate diagnostic, and requires constrained predictive revision.",
+      "quote": "Stop presenting field-reversal invariance as a supported prediction; revise the model only through a constrained alternative."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_05",
+      "case": "hidden_exponential_cost",
+      "judgment": "pass",
+      "notes": "Counts 16 EiB storage plus preparation/amortization; rejects n=60 table deployment while preserving small-instance niches.",
+      "quote": "Change method for n=60 and withdraw the general end-to-end speedup claim."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_05",
+      "case": "benchmark_loop",
+      "judgment": "pass",
+      "notes": "Refuses unchanged repetition for a 5% target and links further work to measurement validity or a changed bottleneck hypothesis.",
+      "quote": "Stop unchanged repetitions and change the next work to measurement diagnosis."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_05",
+      "case": "toy_to_general",
+      "judgment": "pass",
+      "notes": "Retains trees and finite verification, identifies connectivity gap, and distinguishes bad proof from false conjecture.",
+      "quote": "Park the unconditional general-proof claim and repair its induction method."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_05",
+      "case": "fruitful_empirical",
+      "judgment": "pass",
+      "notes": "Retains the empirically supported predictor within domain and separates predictive interaction from causal mechanism.",
+      "quote": "Continue the ensemble for production prediction within the supported operating regime."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_05",
+      "case": "representation_invariance",
+      "judgment": "pass",
+      "notes": "Separates equivalent descriptions from new support and compares complete pipelines at matched correctness.",
+      "quote": "Do not stop B on the strength of A\u2019s compact notation."
+    },
+    {
+      "condition": "guided",
+      "run": "guided_05",
+      "case": "indistinguishable_models",
+      "judgment": "pass",
+      "notes": "Recognizes exact equality at equal rates and calls for a discriminating observable rather than decisive mechanism claims.",
+      "quote": "Park a decisive mechanism-count verdict from another batch of the same observable, and change the identification method."
+    }
+  ]
+}

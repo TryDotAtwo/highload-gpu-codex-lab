@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-01T09:20:49.334809+00:00",
+  "files": {
+    "skills/choose-research-path/SKILL.md": "26cab118ed83a3cb7d72b169f9cd77c1c040f6b796c8f94ddae090d637c7626e",
+    "skills/choose-research-path/agents/openai.yaml": "3387ca680a1e93eaff3c6535cbcf04b9309a7b43964b8019c0f7d99ee76aae4f",
+    "skills/choose-research-path/references/checks.md": "9cdd90f40ff9569c85ba6ebf1f6c8a5a0bf7a5ff883327b9e33d8990d720a7d4",
+    "skills/choose-research-path/references/decision-memo.md": "9d0634ed7b419fced3deb133c3faf14bcea65ae575256169aafa0ff03c30a5a6",
+    "skills/choose-research-path/references/evidence-and-tests.md": "1365245a8f4cdcb8f58cd44335bbe4334792cc6e003aaea41f48dfa0ef4d218d",
+    "skills/choose-research-path/references/examples.md": "5d2ff2fbc07fa49949e7353808b7196b4089888693862e219b87abcc7762ab86",
+    "skills/choose-research-path/references/history-and-sources.md": "9ff5a30015cd02fbed5c8f47d7f422aee4ae6ede8ab44a7ac7fd9071622d1eb8",
+    "skills/choose-research-path/references/integrations.md": "7428d7926d0def900d02313743415f50cc26f29f6e1b26ca270dffd994305968",
+    "skills/choose-research-path/references/roles-and-stopping.md": "78f00a4f3efe3d08b42e5f5fe5996980eb6befb48ff752002e3ca8a8c5192cc4"
+  }
+}

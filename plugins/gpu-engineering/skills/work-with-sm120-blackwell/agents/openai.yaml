@@ -1,0 +1,9 @@
+interface:
+  display_name: work with sm120 blackwell
+  short_description: Use when writing, reviewing, compiling, or benchmarking CUDA
+    for compute capability 12.0, SM120/SM120a, RTX 50-series, or NVIDIA RTX PRO 6000
+    Blackwell GPUs.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

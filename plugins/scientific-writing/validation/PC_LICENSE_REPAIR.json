@@ -1,0 +1,19 @@
+{
+  "original_zip_sha256": "58b764c302f0fb5ce34a19a428083f05f4f04fe534947260302d5ee15a6fc504",
+  "restored_notices": [
+    {
+      "path": "LICENSE",
+      "source": "C:\\Users\\\u0418\u0432\u0430\u043d \u041b\u0438\u0442\u0432\u0430\u043a\\.codex\\plugins\\cache\\logic\\technical-style-editor\\0.3.0\\LICENSE",
+      "sha256": "31fde6de7f04c54a071d1f0fce7539d447d64ce1a42500b5f2cdcf4d9d7e3d8d",
+      "byte_identity": true
+    },
+    {
+      "path": "skills/technical-style-editor/LICENSE",
+      "source": "C:\\Users\\\u0418\u0432\u0430\u043d \u041b\u0438\u0442\u0432\u0430\u043a\\.codex\\plugins\\cache\\logic\\technical-style-editor\\0.3.0\\skills\\technical-style-editor\\LICENSE",
+      "sha256": "31fde6de7f04c54a071d1f0fce7539d447d64ce1a42500b5f2cdcf4d9d7e3d8d",
+      "byte_identity": true
+    }
+  ],
+  "instruction_changes": "none; retained supplied manuscript-routing diff",
+  "behavioral_tests": "E1/P1/P2 NOT_RUN"
+}

@@ -1,0 +1,9 @@
+interface:
+  display_name: optimize transformer hot paths
+  short_description: Use when optimizing fixed-shape Transformer QKV, attention, FFN,
+    residual, LayerNorm, final-token/CLS, persistent, TMA, shared-memory, or DSM inference
+    paths.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

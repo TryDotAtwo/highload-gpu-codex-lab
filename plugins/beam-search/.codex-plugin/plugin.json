@@ -1,0 +1,18 @@
+{
+  "name": "beam-search",
+  "version": "0.1.0",
+  "description": "GPU beam-search pipelines, frontier memory planning, tuning, and correctness validation skills.",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Beam Search",
+    "shortDescription": "GPU beam-search pipelines, frontier memory planning, tuning, and correctness validation skills.",
+    "longDescription": "GPU beam-search pipelines, frontier memory planning, tuning, and correctness validation skills.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Use the Beam Search skills for this task."
+  }
+}

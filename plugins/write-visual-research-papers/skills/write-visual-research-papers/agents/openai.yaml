@@ -1,0 +1,4 @@
+interface:
+  display_name: "Visual Research Papers"
+  short_description: "Rigorous, visual-first scientific paper writing"
+  default_prompt: "Use $write-visual-research-papers to turn this research into a rigorous, visually explained paper with verified evidence and figures."

@@ -1,0 +1,9 @@
+interface:
+  display_name: Design GPU Architectures
+  short_description: Design complete GPU execution architectures
+  default_prompt: Use $design-gpu-architectures to design and audit this GPU system
+    before implementation.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

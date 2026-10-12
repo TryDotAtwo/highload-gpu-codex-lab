@@ -1,0 +1,12 @@
+{
+  "evidence_status": "constructed_exact_examples",
+  "purpose": "Independent arithmetic/logical checks for illustrative cases; these are not measurements or model-behavior validation.",
+  "witnesses": [
+    {"id": "storage", "statement": "16 bytes times 2^60 records equals 2^64 bytes = 16 EiB; this exceeds both 128 GB and 128 GiB"},
+    {"id": "amortization", "statement": "At illustrative costs P=1200 seconds, q=0.1 seconds/query, baseline=20 seconds/query, total lookup time first beats baseline at 61 queries"},
+    {"id": "symmetric_minimum", "statement": "f(x)=(x^2-1)^2 is even but its minimizers +1 and -1 are not fixed by x -> -x"},
+    {"id": "decay", "statement": "At equal decay rates the mixture is the same exponential for every mixture weight; log-mixture curvature at zero is w(1-w)(k1-k2)^2"},
+    {"id": "connected_deletion", "statement": "Deleting the middle vertex of a three-vertex path disconnects it"},
+    {"id": "benchmark_target", "statement": "The stated interval [-0.8%,1.6%] includes zero and excludes the required 5%; interpreting it requires valid sampling assumptions"}
+  ]
+}

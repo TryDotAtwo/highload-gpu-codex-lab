@@ -1,0 +1,32 @@
+{
+  "name": "triz",
+  "version": "0.1.0",
+  "description": "Resolve software engineering contradictions with a testable, evidence-first TRIZ workflow.",
+  "author": {
+    "name": "snow-ghost",
+    "url": "https://github.com/snow-ghost"
+  },
+  "homepage": "https://github.com/snow-ghost/triz",
+  "repository": "https://github.com/snow-ghost/triz",
+  "license": "MIT",
+  "keywords": [
+    "triz",
+    "software-architecture",
+    "problem-solving",
+    "engineering",
+    "agent-skills"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "TRIZ for Code",
+    "shortDescription": "Resolve software contradictions without premature compromise.",
+    "longDescription": "An evidence-first TRIZ workflow for framing software trade-offs, separating conflicting states, generating concrete designs, and validating the smallest reversible experiment.",
+    "developerName": "snow-ghost",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "Resolve this software trade-off with TRIZ.",
+      "Find a testable design that preserves both requirements."
+    ]
+  }
+}

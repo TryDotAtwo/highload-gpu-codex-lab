@@ -1,0 +1,18 @@
+{
+  "name": "docker-workflows",
+  "version": "0.1.0",
+  "description": "Docker images, Compose workflows, GPU containers, and debugging skills.",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Docker Workflows",
+    "shortDescription": "Docker images, Compose workflows, GPU containers, and debugging skills.",
+    "longDescription": "Docker images, Compose workflows, GPU containers, and debugging skills.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Use the Docker Workflows skills for this task."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "compute-platforms",
+  "version": "0.1.0",
+  "description": "Workflows for Molab, Kaggle, and TPU compute platforms.",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Compute Platforms",
+    "shortDescription": "Workflows for Molab, Kaggle, and TPU compute platforms.",
+    "longDescription": "Workflows for Molab, Kaggle, and TPU compute platforms.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Use the Compute Platforms skills for this task."
+  }
+}

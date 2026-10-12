@@ -1,28 +1,17 @@
 ---
 name: design-multigpu-systems
-description: Use when designing multi-GPU streams, sharding, NCCL exchange, static memory, thresholds, or final materialization.
+description: Use when scaling CUDA workloads across multiple GPUs, ranks, or nodes.
 ---
 
 # Design Multi-GPU Systems
 
-Design around explicit ownership, bounded memory, asynchronous progress, and profiling evidence.
+Use only when a workload needs multiple devices, ranks, or nodes. Keep domain algorithms in their dedicated plugins. Load `references/multigpu-patterns.md` when implementation details are needed.
 
-## Pattern
+## Core Rules
 
-- One owner and one writer per mutable buffer.
-- Keep local stream work local; use NCCL only at exchange/collective boundaries.
-- Preallocate repeated-loop memory, CUB temp, NCCL buffers, and graph resources.
-- Publish async state with double buffers: write inactive, complete/fence, commit active index.
-- Use resident A/B buffers when producers and consumers overlap.
-- Avoid global barriers unless global counts, thresholds, or final balancing require them.
-
-## Finalization
-
-Drain active work before switching scratch layouts. Keep final-select and materialization lifetimes separate; do not overlay live inputs. CPU may store selected history, but GPU-to-GPU request/response exchange should stay native.
-
-## Smells
-
-- Only multi-rank fails: suspect capacity, stale state, or collective ordering.
-- Full/small frontier alternation: suspect stale histograms/threshold/reset state.
-- Silent stall: inspect rank logs and NCCL/stream progress before adding backpressure.
-- Backpressure that hides overflow may mask the bug that larger GPU counts need to expose.
+- Define rank/device ownership before writing kernels: inputs, outputs, scratch, streams, communicators, and host control state.
+- Choose the split: data parallel, model/tensor parallel, pipeline parallel, task sharding, or replicated workers.
+- Keep local GPU work local; cross-device exchange should happen at explicit boundaries.
+- Preallocate device memory, CUB temp, NCCL buffers, graph resources, and host pinned buffers before steady-state loops.
+- Verify NCCL ordering is identical on all ranks and log rank/device/collective sequence numbers.
+- Inspect topology, exchange volume, load balance, host launch serialization, and synchronization before changing kernels.

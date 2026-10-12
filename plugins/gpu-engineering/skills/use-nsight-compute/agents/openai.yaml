@@ -1,0 +1,7 @@
+interface:
+  display_name: use nsight compute
+  short_description: Use when profiling one CUDA kernel.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

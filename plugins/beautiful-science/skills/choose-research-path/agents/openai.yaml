@@ -1,0 +1,4 @@
+interface:
+  display_name: "Beautiful Science"
+  short_description: "Choose research paths through evidence and limits"
+  default_prompt: "Use $choose-research-path to review this research direction and name the next discriminating check."

@@ -1,8 +1,10 @@
 {
   "name": "docker",
-  "version": "0.1.0",
-  "description": "Docker, Compose, BuildKit, GPU containers, and HighloadGpu environments.",
-  "author": { "name": "Ivan Litvak" },
+  "version": "0.1.0+codex.20260605110459",
+  "description": "Docker, Compose, BuildKit, and GPU container guidance.",
+  "author": {
+    "name": "Ivan Litvak"
+  },
   "skills": "./skills/",
   "interface": {
     "displayName": "Docker",
@@ -10,11 +12,17 @@
     "longDescription": "Skills for Dockerfiles, Compose, debugging, NVIDIA GPU containers, CUDA images, and HighloadGpu C++/CUDA environments.",
     "developerName": "Ivan Litvak",
     "category": "Developer Tools",
-    "capabilities": ["docker", "docker-compose", "buildkit", "gpu-containers", "cuda-development"],
+    "capabilities": [
+      "docker",
+      "docker-compose",
+      "buildkit",
+      "gpu-containers",
+      "cuda-development"
+    ],
     "defaultPrompt": [
-      "Build and run this with Docker.",
-      "Debug this Docker container.",
-      "Set up a GPU Docker environment."
+      "Build with Docker.",
+      "Debug Docker.",
+      "Set up GPU Docker."
     ],
     "websiteURL": "https://docs.docker.com/",
     "privacyPolicyURL": "https://www.docker.com/legal/docker-privacy-policy/",

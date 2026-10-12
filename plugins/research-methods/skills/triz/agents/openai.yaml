@@ -1,0 +1,9 @@
+interface:
+  display_name: TRIZ for Code
+  short_description: Resolve software contradictions with TRIZ
+  default_prompt: Use $triz to resolve this software engineering contradiction and
+    propose a testable implementation.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

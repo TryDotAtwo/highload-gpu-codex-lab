@@ -1,0 +1,8 @@
+interface:
+  display_name: write cuda hot paths
+  short_description: Use when writing or optimizing CUDA kernels, memory layouts,
+    and GPU hot paths.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

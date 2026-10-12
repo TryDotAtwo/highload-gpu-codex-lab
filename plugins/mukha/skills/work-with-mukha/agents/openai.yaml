@@ -1,0 +1,6 @@
+interface:
+  display_name: "Муха: MaleCNS и проверяемые эксперименты"
+  short_description: "Биология, нативный контур и честная проверка MaleCNS"
+  default_prompt: "Используй $work-with-mukha: проверь текущий контракт и заверши следующий эксперимент проекта MaleCNS."
+policy:
+  allow_implicit_invocation: true

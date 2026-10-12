@@ -1,0 +1,4 @@
+interface:
+  display_name: "Technical Style Editor"
+  short_description: "Edit technical writing in English or Russian"
+  default_prompt: "Use $technical-style-editor to edit this technical text while preserving its facts and language."

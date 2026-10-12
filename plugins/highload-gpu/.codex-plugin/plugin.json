@@ -1,20 +1,32 @@
 {
   "name": "highload-gpu",
-  "version": "0.1.0",
-  "description": "High-load GPU and multi-GPU design, CUDA profiling, debugging, and stack-boundary guidance for Codex.",
-  "author": { "name": "Ivan Litvak" },
+  "version": "0.1.0+codex.20260905082405",
+  "description": "General CUDA and high-performance GPU engineering guidance, including Blackwell SM120.",
+  "author": {
+    "name": "Ivan Litvak"
+  },
   "skills": "./skills/",
   "interface": {
     "displayName": "HighloadGpu",
-    "shortDescription": "Design, profile, and debug GPU systems.",
-    "longDescription": "Guidance for C++/CUDA hot paths, Python/Rust orchestration, NVIDIA docs, CUTLASS/CUB/NCCL, Nsight, Compute Sanitizer, sweeps, and remote GPU runs.",
+    "shortDescription": "Write, optimize, profile, and debug CUDA/GPU code.",
+    "longDescription": "General guidance for CUDA hot paths, NVIDIA libraries, profiling, debugging, benchmarking, multi-GPU scaling, throughput accounting, and Blackwell SM120 hardware. Domain algorithms such as beam search and neural-network inference live in dedicated plugins.",
     "developerName": "Ivan Litvak",
     "category": "Developer Tools",
-    "capabilities": ["multi-gpu-architecture", "cuda-performance", "gpu-profiling", "nvidia-docs"],
+    "capabilities": [
+      "cuda-code-generation",
+      "cuda-performance",
+      "gpu-profiling",
+      "gpu-debugging",
+      "multi-gpu-scaling",
+      "gpu-throughput-accounting",
+      "blackwell-sm120",
+      "nvidia-docs"
+    ],
     "defaultPrompt": [
-      "Design this high-load GPU system.",
+      "Write this CUDA hot path.",
       "Profile this CUDA workload.",
-      "Choose the Python/Rust/C++/CUDA boundaries."
+      "Design multi-GPU scaling.",
+      "Tune this kernel for RTX PRO 6000 Blackwell."
     ],
     "websiteURL": "https://docs.nvidia.com/cuda/",
     "privacyPolicyURL": "https://www.nvidia.com/en-us/about-nvidia/privacy-policy/",

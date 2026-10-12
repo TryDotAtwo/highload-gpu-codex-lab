@@ -1,0 +1,8 @@
+interface:
+  display_name: design multigpu systems
+  short_description: Use when scaling CUDA workloads across multiple GPUs, ranks,
+    or nodes.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

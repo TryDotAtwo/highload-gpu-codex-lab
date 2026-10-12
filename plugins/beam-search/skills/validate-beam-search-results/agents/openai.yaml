@@ -1,0 +1,9 @@
+interface:
+  display_name: validate beam search results
+  short_description: Use when validating GPU beam-search correctness, first-solution
+    versus collect-all behavior, reflection, BFS-touch solutions, multi-rank output,
+    replay validity, or solution-length quality.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

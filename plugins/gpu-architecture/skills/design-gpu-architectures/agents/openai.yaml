@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design GPU Architectures"
+  short_description: "Design complete GPU execution architectures"
+  default_prompt: "Use $design-gpu-architectures to design and audit this GPU system before implementation."

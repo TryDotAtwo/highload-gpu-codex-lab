@@ -1,0 +1,18 @@
+{
+  "name": "cnot-research",
+  "version": "0.1.0",
+  "description": "Project knowledge and evidence for paid shared-basis CNOT synthesis, full-matrix transformers, verified search and diffusion experiments.",
+  "author": {
+    "name": "TheQuantumProject"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "CNOT Research",
+    "shortDescription": "Сокращение CNOT-программ: методы, обучение и проверенные результаты.",
+    "longDescription": "Опыт собственной ветки shared-basis stage17, структурного трансформера, полного поля, policy iteration и диффузии. Содержит журнал отрицательных результатов, математические контракты, проверку сертификатов и план следующих опытов.",
+    "developerName": "TheQuantumProject",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Используй опыт CNOT Research: проверь текущие артефакты, выбери следующую проверяемую гипотезу и сократи полную CNOT-программу с проверкой исходной матрицы."
+  }
+}

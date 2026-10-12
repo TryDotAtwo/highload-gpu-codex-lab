@@ -1,0 +1,6 @@
+interface:
+  display_name: "Суперпозиция решений"
+  short_description: "Планируй решения через подтверждаемые этапы и дерево"
+  default_prompt: "Use $superposition-planning to plan this decision recursively, keeping criteria, alternatives, and choice in separate user-confirmed phases."
+policy:
+  allow_implicit_invocation: true

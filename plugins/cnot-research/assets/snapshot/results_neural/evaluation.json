@@ -1,0 +1,1269 @@
+{
+  "metrics": {
+    "n": 4,
+    "seed": 1700,
+    "epochs": 100,
+    "hidden": 128,
+    "train_states": 16128,
+    "heldout_states": 4032,
+    "heldout_mae": 0.33187851309776306,
+    "heldout_rounded_accuracy": 0.7926587301587301,
+    "train_seconds": 13.212363700004062,
+    "evaluation_seconds": 1.0455966999870725,
+    "evaluation_count": 200,
+    "solved": 200,
+    "optimal_count": 200,
+    "excess_cnot_sum": 0,
+    "comparisons": {
+      "network_beam1": {
+        "solved": 200,
+        "optimal": 188,
+        "excess_cnot_sum": 12
+      },
+      "network_beam4": {
+        "solved": 200,
+        "optimal": 200,
+        "excess_cnot_sum": 0
+      },
+      "network_beam64": {
+        "solved": 200,
+        "optimal": 200,
+        "excess_cnot_sum": 0
+      },
+      "hamming_beam1": {
+        "solved": 200,
+        "optimal": 122,
+        "excess_cnot_sum": 128
+      },
+      "hamming_beam4": {
+        "solved": 200,
+        "optimal": 173,
+        "excess_cnot_sum": 30
+      },
+      "hamming_beam64": {
+        "solved": 200,
+        "optimal": 200,
+        "excess_cnot_sum": 0
+      },
+      "none_beam1": {
+        "solved": 6,
+        "optimal": 1,
+        "excess_cnot_sum": 25
+      },
+      "none_beam4": {
+        "solved": 11,
+        "optimal": 2,
+        "excess_cnot_sum": 75
+      },
+      "none_beam64": {
+        "solved": 54,
+        "optimal": 11,
+        "excess_cnot_sum": 315
+      }
+    }
+  },
+  "results": [
+    {
+      "state": 54577,
+      "optimal": 3,
+      "neural": 3,
+      "verified": true
+    },
+    {
+      "state": 29532,
+      "optimal": 7,
+      "neural": 7,
+      "verified": true
+    },
+    {
+      "state": 31186,
+      "optimal": 7,
+      "neural": 7,
+      "verified": true
+    },
+    {
+      "state": 46025,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 53960,
+      "optimal": 7,
+      "neural": 7,
+      "verified": true
+    },
+    {
+      "state": 44012,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 31730,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 23631,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 53817,
+      "optimal": 7,
+      "neural": 7,
+      "verified": true
+    },
+    {
+      "state": 18533,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 47573,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 6611,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 38323,
+      "optimal": 4,
+      "neural": 4,
+      "verified": true
+    },
+    {
+      "state": 63699,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 59003,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 12942,
+      "optimal": 8,
+      "neural": 8,
+      "verified": true
+    },
+    {
+      "state": 34495,
+      "optimal": 4,
+      "neural": 4,
+      "verified": true
+    },
+    {
+      "state": 7802,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 48291,
+      "optimal": 4,
+      "neural": 4,
+      "verified": true
+    },
+    {
+      "state": 33887,
+      "optimal": 4,
+      "neural": 4,
+      "verified": true
+    },
+    {
+      "state": 41442,
+      "optimal": 7,
+      "neural": 7,
+      "verified": true
+    },
+    {
+      "state": 32436,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 30191,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 10061,
+      "optimal": 7,
+      "neural": 7,
+      "verified": true
+    },
+    {
+      "state": 62116,
+      "optimal": 7,
+      "neural": 7,
+      "verified": true
+    },
+    {
+      "state": 8138,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 60009,
+      "optimal": 4,
+      "neural": 4,
+      "verified": true
+    },
+    {
+      "state": 64865,
+      "optimal": 4,
+      "neural": 4,
+      "verified": true
+    },
+    {
+      "state": 13051,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 47562,
+      "optimal": 7,
+      "neural": 7,
+      "verified": true
+    },
+    {
+      "state": 16072,
+      "optimal": 7,
+      "neural": 7,
+      "verified": true
+    },
+    {
+      "state": 39770,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 56856,
+      "optimal": 7,
+      "neural": 7,
+      "verified": true
+    },
+    {
+      "state": 41964,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 42187,
+      "optimal": 4,
+      "neural": 4,
+      "verified": true
+    },
+    {
+      "state": 14294,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 10911,
+      "optimal": 7,
+      "neural": 7,
+      "verified": true
+    },
+    {
+      "state": 12990,
+      "optimal": 7,
+      "neural": 7,
+      "verified": true
+    },
+    {
+      "state": 22569,
+      "optimal": 4,
+      "neural": 4,
+      "verified": true
+    },
+    {
+      "state": 27191,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 39917,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 39985,
+      "optimal": 3,
+      "neural": 3,
+      "verified": true
+    },
+    {
+      "state": 37583,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 55755,
+      "optimal": 7,
+      "neural": 7,
+      "verified": true
+    },
+    {
+      "state": 39444,
+      "optimal": 7,
+      "neural": 7,
+      "verified": true
+    },
+    {
+      "state": 36677,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 29421,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 33769,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 55294,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 32387,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 29291,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 46242,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 41652,
+      "optimal": 7,
+      "neural": 7,
+      "verified": true
+    },
+    {
+      "state": 5544,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 57204,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 47191,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 52029,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 8090,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 9402,
+      "optimal": 4,
+      "neural": 4,
+      "verified": true
+    },
+    {
+      "state": 53943,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 39155,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 6742,
+      "optimal": 8,
+      "neural": 8,
+      "verified": true
+    },
+    {
+      "state": 58556,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 19697,
+      "optimal": 4,
+      "neural": 4,
+      "verified": true
+    },
+    {
+      "state": 49759,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 12941,
+      "optimal": 7,
+      "neural": 7,
+      "verified": true
+    },
+    {
+      "state": 43813,
+      "optimal": 4,
+      "neural": 4,
+      "verified": true
+    },
+    {
+      "state": 58898,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 16876,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 63657,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 46901,
+      "optimal": 4,
+      "neural": 4,
+      "verified": true
+    },
+    {
+      "state": 39505,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 46757,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 58411,
+      "optimal": 3,
+      "neural": 3,
+      "verified": true
+    },
+    {
+      "state": 30957,
+      "optimal": 7,
+      "neural": 7,
+      "verified": true
+    },
+    {
+      "state": 13343,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 13357,
+      "optimal": 4,
+      "neural": 4,
+      "verified": true
+    },
+    {
+      "state": 23262,
+      "optimal": 7,
+      "neural": 7,
+      "verified": true
+    },
+    {
+      "state": 7506,
+      "optimal": 8,
+      "neural": 8,
+      "verified": true
+    },
+    {
+      "state": 6116,
+      "optimal": 7,
+      "neural": 7,
+      "verified": true
+    },
+    {
+      "state": 60844,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 23878,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 49467,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 50148,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 60595,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 49109,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 41535,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 51013,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 46668,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 49994,
+      "optimal": 7,
+      "neural": 7,
+      "verified": true
+    },
+    {
+      "state": 42904,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 38966,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 20056,
+      "optimal": 8,
+      "neural": 8,
+      "verified": true
+    },
+    {
+      "state": 52801,
+      "optimal": 4,
+      "neural": 4,
+      "verified": true
+    },
+    {
+      "state": 52670,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 62522,
+      "optimal": 4,
+      "neural": 4,
+      "verified": true
+    },
+    {
+      "state": 14975,
+      "optimal": 7,
+      "neural": 7,
+      "verified": true
+    },
+    {
+      "state": 32424,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 33811,
+      "optimal": 2,
+      "neural": 2,
+      "verified": true
+    },
+    {
+      "state": 7278,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 53818,
+      "optimal": 7,
+      "neural": 7,
+      "verified": true
+    },
+    {
+      "state": 31882,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 46381,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 24226,
+      "optimal": 7,
+      "neural": 7,
+      "verified": true
+    },
+    {
+      "state": 18617,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 31898,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 55950,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 6853,
+      "optimal": 7,
+      "neural": 7,
+      "verified": true
+    },
+    {
+      "state": 25007,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 62568,
+      "optimal": 4,
+      "neural": 4,
+      "verified": true
+    },
+    {
+      "state": 18981,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 32668,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 34027,
+      "optimal": 3,
+      "neural": 3,
+      "verified": true
+    },
+    {
+      "state": 14734,
+      "optimal": 7,
+      "neural": 7,
+      "verified": true
+    },
+    {
+      "state": 7602,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 58923,
+      "optimal": 4,
+      "neural": 4,
+      "verified": true
+    },
+    {
+      "state": 50731,
+      "optimal": 4,
+      "neural": 4,
+      "verified": true
+    },
+    {
+      "state": 55578,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 9550,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 62247,
+      "optimal": 4,
+      "neural": 4,
+      "verified": true
+    },
+    {
+      "state": 61323,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 54443,
+      "optimal": 4,
+      "neural": 4,
+      "verified": true
+    },
+    {
+      "state": 9305,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 14444,
+      "optimal": 7,
+      "neural": 7,
+      "verified": true
+    },
+    {
+      "state": 42449,
+      "optimal": 4,
+      "neural": 4,
+      "verified": true
+    },
+    {
+      "state": 37822,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 38831,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 4714,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 19574,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 27875,
+      "optimal": 4,
+      "neural": 4,
+      "verified": true
+    },
+    {
+      "state": 9923,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 44087,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 34581,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 45398,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 35429,
+      "optimal": 4,
+      "neural": 4,
+      "verified": true
+    },
+    {
+      "state": 54478,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 42025,
+      "optimal": 2,
+      "neural": 2,
+      "verified": true
+    },
+    {
+      "state": 36509,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 63324,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 31372,
+      "optimal": 7,
+      "neural": 7,
+      "verified": true
+    },
+    {
+      "state": 28627,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 47558,
+      "optimal": 7,
+      "neural": 7,
+      "verified": true
+    },
+    {
+      "state": 46449,
+      "optimal": 4,
+      "neural": 4,
+      "verified": true
+    },
+    {
+      "state": 52061,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 64472,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 64633,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 15807,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 15736,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 13777,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 40421,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 42787,
+      "optimal": 3,
+      "neural": 3,
+      "verified": true
+    },
+    {
+      "state": 23791,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 22578,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 12166,
+      "optimal": 7,
+      "neural": 7,
+      "verified": true
+    },
+    {
+      "state": 59580,
+      "optimal": 7,
+      "neural": 7,
+      "verified": true
+    },
+    {
+      "state": 52118,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 60195,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 52837,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 33070,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 39677,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 46638,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 22148,
+      "optimal": 7,
+      "neural": 7,
+      "verified": true
+    },
+    {
+      "state": 29905,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 10467,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 61749,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 12171,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 23372,
+      "optimal": 8,
+      "neural": 8,
+      "verified": true
+    },
+    {
+      "state": 45623,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 62043,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 44753,
+      "optimal": 4,
+      "neural": 4,
+      "verified": true
+    },
+    {
+      "state": 12775,
+      "optimal": 7,
+      "neural": 7,
+      "verified": true
+    },
+    {
+      "state": 29950,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 44929,
+      "optimal": 4,
+      "neural": 4,
+      "verified": true
+    },
+    {
+      "state": 45809,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 57819,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 32076,
+      "optimal": 7,
+      "neural": 7,
+      "verified": true
+    },
+    {
+      "state": 61285,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 45938,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 58915,
+      "optimal": 3,
+      "neural": 3,
+      "verified": true
+    },
+    {
+      "state": 59196,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 10557,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 58201,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 28629,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 18933,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 13557,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 5242,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 36212,
+      "optimal": 4,
+      "neural": 4,
+      "verified": true
+    },
+    {
+      "state": 44126,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 43384,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 31588,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 7732,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 6583,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 49909,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 14918,
+      "optimal": 8,
+      "neural": 8,
+      "verified": true
+    },
+    {
+      "state": 54711,
+      "optimal": 5,
+      "neural": 5,
+      "verified": true
+    },
+    {
+      "state": 51993,
+      "optimal": 7,
+      "neural": 7,
+      "verified": true
+    },
+    {
+      "state": 4973,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 36765,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    },
+    {
+      "state": 39735,
+      "optimal": 7,
+      "neural": 7,
+      "verified": true
+    },
+    {
+      "state": 22580,
+      "optimal": 6,
+      "neural": 6,
+      "verified": true
+    }
+  ],
+  "training_source": "exact_BFS_GL4_supervision",
+  "matrix_encoding": "row-major 16 bits"
+}

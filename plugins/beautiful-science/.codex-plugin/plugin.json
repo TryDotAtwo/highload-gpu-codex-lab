@@ -1,0 +1,31 @@
+{
+  "name": "beautiful-science",
+  "version": "0.1.0",
+  "description": "Evidence-based choices for scientific research paths: continue, test, redirect, or park with scope and costs explicit.",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Beautiful Science",
+    "shortDescription": "Choose research paths with evidence and clear limits.",
+    "longDescription": "A self-contained decision skill for investigators and supervisors. It separates aesthetic promise from proof and empirical support, tests assumptions and hidden cost, preserves productive complexity, and makes next steps and stopping conditions explicit.",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "Review this research path and its weakest assumption.",
+      "Decide whether to continue, test, redirect, or park.",
+      "Find the next experiment that can change our decision."
+    ],
+    "brandColor": "#315C68",
+    "developerName": "Beautiful Science"
+  },
+  "keywords": [
+    "science",
+    "research",
+    "evidence",
+    "supervision",
+    "methodology",
+    "falsification"
+  ],
+  "author": {
+    "name": "Beautiful Science"
+  }
+}

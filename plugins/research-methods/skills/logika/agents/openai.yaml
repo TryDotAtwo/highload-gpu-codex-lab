@@ -1,0 +1,18 @@
+interface:
+  display_name: logika
+  short_description: 'Review and repair arguments in English or Russian using classical
+    formal logic
+
+    from G. Chelpanov''s textbook. Check inferences, syllogisms, definitions, divisions,
+
+    induction, and analogies; identify fallacies and solve logic exercises.
+
+    Use for logical review, argument repair, and logic problems.
+
+    Русские запросы: «проверь логику», «найди логические ошибки», «исправь логику»,
+
+    «поправь аргументацию», «проверь силлогизм».'
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

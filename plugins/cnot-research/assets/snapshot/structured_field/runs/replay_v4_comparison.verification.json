@@ -1,0 +1,81 @@
+{
+  "checkpoints": [
+    {
+      "checkpoint": "structured_field\\runs\\replay_base_seed1700_v4\\last.pt",
+      "checkpoint_sha256": "d7c105719e5b0df0fe1cf97fea087f08ee26fcb38d1efaff17e4ecc919b6682f",
+      "step": 1280,
+      "unique_training_states": 9728,
+      "unique_validation_states": 337,
+      "source_hashes_match": true,
+      "direct_split_overlap": 0,
+      "benchmark_training_overlap": 0
+    },
+    {
+      "checkpoint": "structured_field\\runs\\replay_basis_seed1700_v4\\last.pt",
+      "checkpoint_sha256": "91c7ee62bc0465b5f8464b6b47b40f6a2b638bbb2d19d4a59f2c75d3b119ac96",
+      "step": 1280,
+      "unique_training_states": 9728,
+      "unique_validation_states": 337,
+      "source_hashes_match": true,
+      "direct_split_overlap": 0,
+      "benchmark_training_overlap": 0
+    }
+  ],
+  "programs": [
+    {
+      "case": "hgp_13_1",
+      "method": "hamming",
+      "verified": true,
+      "reason": "solved"
+    },
+    {
+      "case": "hgp_13_1",
+      "method": "field_no_basis",
+      "verified": true,
+      "reason": "solved"
+    },
+    {
+      "case": "hgp_13_1",
+      "method": "field_basis",
+      "verified": true,
+      "reason": "solved"
+    },
+    {
+      "case": "hgp_25_1",
+      "method": "hamming",
+      "verified": true,
+      "reason": "solved"
+    },
+    {
+      "case": "hgp_25_1",
+      "method": "field_no_basis",
+      "verified": true,
+      "reason": "solved"
+    },
+    {
+      "case": "hgp_25_1",
+      "method": "field_basis",
+      "verified": true,
+      "reason": "solved"
+    },
+    {
+      "case": "hgp_34_10",
+      "method": "hamming",
+      "verified": true,
+      "reason": "solved"
+    },
+    {
+      "case": "hgp_34_10",
+      "method": "field_no_basis",
+      "verified": true,
+      "reason": "solved"
+    },
+    {
+      "case": "hgp_34_10",
+      "method": "field_basis",
+      "verified": true,
+      "reason": "solved"
+    }
+  ],
+  "scope": "Direct training records only; Bellman neighbors may overlap validation states."
+}

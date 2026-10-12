@@ -1,0 +1,17 @@
+{
+  "old_zip_sha256": "53db31669ff2b6369fa0d938a8d16c60174333e2c3290594a1bbfb43b9133d3a",
+  "broken_skill_relative_links": [],
+  "preserved_resources": {
+    "write-visual-research-papers": {
+      "checked": 6,
+      "different": []
+    },
+    "technical-style-editor": {
+      "checked": 9,
+      "different": []
+    }
+  },
+  "legacy_tests_unchanged": true,
+  "new_behavioral_tests": "NOT_RUN: fresh-agent thread limit",
+  "installation": "NOT_PERFORMED"
+}

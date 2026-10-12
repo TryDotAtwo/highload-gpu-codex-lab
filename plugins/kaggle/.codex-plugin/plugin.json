@@ -1,6 +1,6 @@
 {
   "name": "kaggle",
-  "version": "0.1.0",
+  "version": "0.1.0+codex.20260605110459",
   "description": "Codex workflows for working with Kaggle notebooks, kernels, datasets, logs, and GPU validation runs.",
   "author": {
     "name": "Ivan Litvak"

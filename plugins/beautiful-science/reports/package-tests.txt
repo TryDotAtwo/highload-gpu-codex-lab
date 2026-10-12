@@ -1,0 +1,17 @@
+test_amortized_cost_is_not_query_cost (__main__.ExactWitnesses.test_amortized_cost_is_not_query_cost) ... ok
+test_connected_graph_vertex_deletion_can_disconnect (__main__.ExactWitnesses.test_connected_graph_vertex_deletion_can_disconnect) ... ok
+test_equal_decay_rates_not_identifiable (__main__.ExactWitnesses.test_equal_decay_rates_not_identifiable) ... ok
+test_exponential_storage_at_target (__main__.ExactWitnesses.test_exponential_storage_at_target) ... ok
+test_one_counterexample_invalidates_universal_not_family (__main__.ExactWitnesses.test_one_counterexample_invalidates_universal_not_family) ... ok
+test_zero_and_target_gain_are_different_hypotheses (__main__.ExactWitnesses.test_zero_and_target_gain_are_different_hypotheses) ... ok
+test_entrypoint_is_short_and_frontmatter_named (__main__.PackageContract.test_entrypoint_is_short_and_frontmatter_named) ... ok
+test_examples_marked_as_constructed (__main__.PackageContract.test_examples_marked_as_constructed) ... ok
+test_manifest_and_single_entrypoint (__main__.PackageContract.test_manifest_and_single_entrypoint) ... ok
+test_no_runtime_external_dependencies (__main__.PackageContract.test_no_runtime_external_dependencies) ... ok
+test_relative_reference_links_resolve (__main__.PackageContract.test_relative_reference_links_resolve) ... ok
+test_test_case_ids_unique_and_required_coverage_present (__main__.PackageContract.test_test_case_ids_unique_and_required_coverage_present) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.004s
+
+OK

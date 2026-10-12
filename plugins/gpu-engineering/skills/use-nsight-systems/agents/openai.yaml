@@ -1,0 +1,7 @@
+interface:
+  display_name: use nsight systems
+  short_description: Use when analyzing GPU timelines.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

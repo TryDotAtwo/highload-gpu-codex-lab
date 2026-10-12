@@ -1,0 +1,7 @@
+interface:
+  display_name: work with docker
+  short_description: Use when routing Docker tasks.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

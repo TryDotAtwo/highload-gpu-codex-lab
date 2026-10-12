@@ -1,0 +1,1 @@
+Plugin validation passed: /workspace/scratch/d8164a286e1c/plugins/scientific-writing

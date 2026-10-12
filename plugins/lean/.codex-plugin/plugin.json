@@ -1,0 +1,18 @@
+{
+  "name": "lean",
+  "version": "0.1.0",
+  "description": "Lean 4 and Mathlib formalization, proof debugging, exact certificates, and source-bound verification evidence.",
+  "author": {
+    "name": "Personal"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Lean",
+    "shortDescription": "Formalize mathematics and verify Lean proofs.",
+    "longDescription": "Work with pinned Lean 4 and Mathlib projects, debug dependent proofs, preserve exact theorem scope, and check build and axiom evidence against source hashes. Includes lessons from a real formalization audit and tested local evidence tools.",
+    "developerName": "Personal",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": ["Formalize this statement in Lean without weakening it.", "Debug this Lean proof using the pinned Mathlib API.", "Audit proof coverage, build evidence, and transitive axioms."]
+  }
+}

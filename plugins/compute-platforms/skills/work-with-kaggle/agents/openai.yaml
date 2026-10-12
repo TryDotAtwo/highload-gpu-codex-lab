@@ -1,0 +1,12 @@
+interface:
+  display_name: work with kaggle
+  short_description: Use when the user asks Codex to work with Kaggle, kaggle.com,
+    Kaggle notebooks/kernels/datasets, Kaggle CLI, 2xT4/H100 notebook validation,
+    kernel push/status/output/downloads, or Kaggle run diagnostics. This includes
+    requests like "запусти на кагле", "проверь Kaggle logs", "push kernel", "download
+    Kaggle output", "сделай T4x2 notebook", "опубликуй notebook", or "watch Kaggle
+    status".
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

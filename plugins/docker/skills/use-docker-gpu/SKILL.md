@@ -1,6 +1,6 @@
 ---
 name: use-docker-gpu
-description: Use when Docker containers need NVIDIA GPU access, CUDA images, nvidia-smi, NVIDIA Container Toolkit, --gpus, or Compose GPU support.
+description: Use when enabling Docker GPU access.
 ---
 
 # Use Docker GPU

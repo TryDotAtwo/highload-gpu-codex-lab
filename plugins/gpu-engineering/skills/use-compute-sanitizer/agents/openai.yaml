@@ -1,0 +1,7 @@
+interface:
+  display_name: use compute sanitizer
+  short_description: Use when debugging CUDA memory or race errors.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

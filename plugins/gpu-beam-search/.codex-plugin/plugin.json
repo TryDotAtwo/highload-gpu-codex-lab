@@ -1,0 +1,28 @@
+{
+  "name": "gpu-beam-search",
+  "version": "0.1.0+codex.20260828-deep-history-audit",
+  "description": "Design, tune, and validate fixed-capacity GPU beam-search pipelines.",
+  "author": {
+    "name": "Ivan Litvak"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "GpuBeamSearch",
+    "shortDescription": "Build and tune multi-GPU beam search.",
+    "longDescription": "Guidance for fixed-capacity GPU frontier expansion, accumulator/ring pipelines, top-k and dedup stages, exact memory planning, multi-rank semantics, profile sweeps, and replay-valid result collection.",
+    "developerName": "Ivan Litvak",
+    "category": "Developer Tools",
+    "capabilities": [
+      "gpu-beam-search",
+      "frontier-pipelines",
+      "beam-memory-planning",
+      "beam-profile-tuning",
+      "solution-validation"
+    ],
+    "defaultPrompt": [
+      "Tune this GPU beam-search profile.",
+      "Design a fixed-capacity frontier pipeline.",
+      "Validate this multi-GPU beam-search run."
+    ]
+  }
+}

@@ -1,11 +1,11 @@
 ---
 name: use-nsight-systems
-description: Use when diagnosing GPU timelines, stream overlap, CPU launch overhead, NCCL stalls, synchronization gaps, or nsys output.
+description: Use when analyzing GPU timelines.
 ---
 
 # Use Nsight Systems
 
-Use Nsight Systems for timeline questions: what ran when, why streams are idle, whether CPU launch/sync blocks the GPU, and whether NCCL overlaps compute.
+Use Nsight Systems for stream idle gaps, CPU launch/sync blocks, and NCCL/compute overlap.
 
 ```bash
 nsys profile --trace=cuda,nvtx,osrt,cublas,nccl --stats=true --force-overwrite=true -o nsys_run ./runner ...
@@ -13,6 +13,6 @@ nsys stats nsys_run.nsys-rep
 nsys export --type sqlite --force-overwrite=true -o nsys_run.sqlite nsys_run.nsys-rep
 ```
 
-Profile a bounded representative window. Add NVTX ranges around depth, stage, rank, shard, and finalization.
+Profile a bounded window. Add NVTX around batch, stage, stream, rank, shard, communication, and pipeline phase.
 
-Inspect: stream overlap, idle gaps, long CUDA API calls, graph replay/instantiation, NCCL duration/order, host thread blocking, and timeline alignment with logs. If the timeline shows pipeline idle, do not tune a single kernel first.
+Inspect stream overlap, idle gaps, long CUDA API calls, graph replay/instantiation, NCCL order, host blocking, and log alignment.

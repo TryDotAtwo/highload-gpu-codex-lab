@@ -1,0 +1,9 @@
+interface:
+  display_name: Beautiful Science
+  short_description: Choose research paths through evidence and limits
+  default_prompt: Use $choose-research-path to review this research direction and
+    name the next discriminating check.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

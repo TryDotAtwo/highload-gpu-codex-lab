@@ -1,0 +1,18 @@
+{
+  "name": "mukha",
+  "version": "0.1.1",
+  "description": "Develop and validate the full MaleCNS embodied fly: biological hypotheses, native execution, reproducible experiments, physical cockpit control and KSP evaluation.",
+  "author": {
+    "name": "Ivan Litvak"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Муха",
+    "shortDescription": "MaleCNS: биология, нативный runtime и проверяемые опыты.",
+    "longDescription": "Project-specific research workflow for the full MaleCNS CNS, local plasticity, vision, body and contact-driven cockpit control. Requires MoLab-only computation and immediate verified Hugging Face persistence; routes domain skills and preserves biological evidence boundaries. It does not supply a validated fly model or an autopilot.",
+    "developerName": "Ivan Litvak",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": ["Проверь состояние MaleCNS и заверши следующий решающий эксперимент.", "Проверь биологическую гипотезу и нативную реализацию мухи.", "Проверь причинность управления кабиной и доказательства KSP."]
+  }
+}

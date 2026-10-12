@@ -1,0 +1,378 @@
+{
+  "name": "scientific-writing",
+  "version": "0.2.0",
+  "status": "structural-validated candidate; focused manual review",
+  "behavioral_tests": "NOT_RUN: fresh-agent thread limit",
+  "files": [
+    {
+      "path": ".codex-plugin/plugin.json",
+      "bytes": 840,
+      "sha256": "b67ebdbcf7953a08fd68c861a798bf28fa2b9413e0d0938668f534fa3c22864f"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 954,
+      "sha256": "d5350a5d7510d97a2cdeeb80e0ffc6b7f5557137bacf83a0c1272f21c5011ca0"
+    },
+    {
+      "path": "EVALUATION.md",
+      "bytes": 2054,
+      "sha256": "d56e222f448384661b8a7375873034baaec7185703ad49037680bdf43875a7e8"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1090,
+      "sha256": "31fde6de7f04c54a071d1f0fce7539d447d64ce1a42500b5f2cdcf4d9d7e3d8d"
+    },
+    {
+      "path": "README_RU.md",
+      "bytes": 3300,
+      "sha256": "8e7b7ac3ab3541363cfd22d934ccda5b67496dca0ca393de5e5c74594d9e6d5a"
+    },
+    {
+      "path": "skills/technical-style-editor/agents/openai.yaml",
+      "bytes": 241,
+      "sha256": "7e80f34ee0abdf5af3f24a22176ac75832855db8df47d627b958999d8c8b840d"
+    },
+    {
+      "path": "skills/technical-style-editor/LICENSE",
+      "bytes": 1090,
+      "sha256": "31fde6de7f04c54a071d1f0fce7539d447d64ce1a42500b5f2cdcf4d9d7e3d8d"
+    },
+    {
+      "path": "skills/technical-style-editor/references/en/extended-audit.md",
+      "bytes": 4133,
+      "sha256": "4e44cab592e5b8abec33f42b80055e5d6b415ac8f9ad7b9cb2603342d5826771"
+    },
+    {
+      "path": "skills/technical-style-editor/references/en/patterns.md",
+      "bytes": 4425,
+      "sha256": "897c97aa8bb1609dfc732dd92b5df6a83afdf7c537bded313a393b21e2ca7e6b"
+    },
+    {
+      "path": "skills/technical-style-editor/references/extended-audit.md",
+      "bytes": 7743,
+      "sha256": "3500d18cba795dd78c50c838a4ba6c8ca3345897b88cb671ab2cb4ba7b286262"
+    },
+    {
+      "path": "skills/technical-style-editor/references/patterns.md",
+      "bytes": 7309,
+      "sha256": "db49341a363aaf8bd68d024ea3e858f6474e47a278fb1305f23d9d836789af2c"
+    },
+    {
+      "path": "skills/technical-style-editor/scripts/english_rules.py",
+      "bytes": 4407,
+      "sha256": "e18859419ed388c147a587a400dd6f540bf35bfbaa92cafde56ad717e6371518"
+    },
+    {
+      "path": "skills/technical-style-editor/scripts/lint_technical_style.py",
+      "bytes": 13636,
+      "sha256": "f37b8de76e850a89cc05ff1751dc742bd80247e09a1b10b010a588f912ca21c8"
+    },
+    {
+      "path": "skills/technical-style-editor/SKILL.en.md",
+      "bytes": 4478,
+      "sha256": "d7392788c8fb339b969f96fc8589e80217fd5df39c945a702d4668ee4497465c"
+    },
+    {
+      "path": "skills/technical-style-editor/SKILL.md",
+      "bytes": 4671,
+      "sha256": "87952a099d1876d060d8669db3ec516ca5ae5856a0d2283459b709ed4c7870f9"
+    },
+    {
+      "path": "skills/technical-style-editor/SKILL.ru.md",
+      "bytes": 8145,
+      "sha256": "fa274e17dd9558da0f6479a9ccba928a7aa2069984d049236a7beda7d29586f3"
+    },
+    {
+      "path": "skills/work-with-prism/references/product-sources.md",
+      "bytes": 2255,
+      "sha256": "4de22c4983534fe481775fe59e12df035364b12dd6f4958f025a8c6d20ca3209"
+    },
+    {
+      "path": "skills/work-with-prism/references/workflow.md",
+      "bytes": 4147,
+      "sha256": "bb4af4cbc0408618e45b6cd0be901e4299be64848950b76161066c739fdea036"
+    },
+    {
+      "path": "skills/work-with-prism/SKILL.md",
+      "bytes": 4142,
+      "sha256": "8c9dc1bc2347e8a0af1b8e50e83e4ac7d311e025b2a407a23517530339f0feee"
+    },
+    {
+      "path": "skills/write-clear-explanations/references/fidelity.md",
+      "bytes": 1593,
+      "sha256": "46196db0606552cb9ff772405e12c51248c87344396c5fdff7a909fd528f02f0"
+    },
+    {
+      "path": "skills/write-clear-explanations/references/languages.md",
+      "bytes": 2301,
+      "sha256": "17e5bc64145e2626e68e1cc1c2b367a6921b6e67a5279aa44fdd1a14a4e14285"
+    },
+    {
+      "path": "skills/write-clear-explanations/references/ru/examples.md",
+      "bytes": 6130,
+      "sha256": "0e70dd84adc24c26c221ff5fc977981ddf37d1a2acf81eabbbee0b6435de23f0"
+    },
+    {
+      "path": "skills/write-clear-explanations/references/ru/fidelity.md",
+      "bytes": 4574,
+      "sha256": "de5659f4aec6c7a59907104360ad2854b0040e47a23bbcb27d4c498e874d1dd3"
+    },
+    {
+      "path": "skills/write-clear-explanations/references/ru/reading-astra.md",
+      "bytes": 7373,
+      "sha256": "ab27b22cf9fdcd744df4c3a60eed3785241d923559f258a46a5c9528347b4338"
+    },
+    {
+      "path": "skills/write-clear-explanations/references/ru/reading.md",
+      "bytes": 16379,
+      "sha256": "0b5fc9e625229333e98c7f7526060f559f98f3d1653ef30fb65c408d9d409a76"
+    },
+    {
+      "path": "skills/write-clear-explanations/references/ru/techniques.md",
+      "bytes": 5533,
+      "sha256": "45b8ed6353cdfca00cfd97cd279838f816aed50ef434e98b6dd7a11399ad74f9"
+    },
+    {
+      "path": "skills/write-clear-explanations/SKILL.md",
+      "bytes": 3818,
+      "sha256": "f3daa04f11c786455d00d858aa7787b1ba8586dc9716b8e894683ce8de1b089d"
+    },
+    {
+      "path": "skills/write-visual-research-papers/agents/openai.yaml",
+      "bytes": 277,
+      "sha256": "1e695ebe98c8c860d7b1ebfa1565e12eafb48772cd0b97bbbb7c8e603e2973c4"
+    },
+    {
+      "path": "skills/write-visual-research-papers/references/asymptotics.md",
+      "bytes": 4425,
+      "sha256": "ff33e1340811e9604ce26078800d94f13f7b0199811c6bf3c73114716cb00063"
+    },
+    {
+      "path": "skills/write-visual-research-papers/references/claim-ledger.md",
+      "bytes": 3963,
+      "sha256": "8bedaf33bbd007784960b8cb6f912811767f31ba3dc137f53efcd718259184e8"
+    },
+    {
+      "path": "skills/write-visual-research-papers/references/delivery.md",
+      "bytes": 3500,
+      "sha256": "7b5aa2210389288e81672330078e723de5659fba4f1918f3fe81fd78ad9bf4da"
+    },
+    {
+      "path": "skills/write-visual-research-papers/references/figure-qa.md",
+      "bytes": 5069,
+      "sha256": "8f5e878ecaa15bbab3b0513db5445b38072688a67b7bf4152fd36b0e89596594"
+    },
+    {
+      "path": "skills/write-visual-research-papers/references/workflow.md",
+      "bytes": 3986,
+      "sha256": "9b49a9ee4ed23f93e91d6b1b6cc796bbefee1ff79f996e74dc9b2afbc0b252f4"
+    },
+    {
+      "path": "skills/write-visual-research-papers/SKILL.md",
+      "bytes": 4827,
+      "sha256": "441dda3e826088eb6054504de3b961893f2619214e92423dc96f27474591aeb3"
+    },
+    {
+      "path": "tests/FROZEN.sha256",
+      "bytes": 169,
+      "sha256": "78f6136085e83f73c575b626ba8d144e557ed2855bd3a7c81b85af6fb7e58d92"
+    },
+    {
+      "path": "tests/legacy-ru/baseline.md",
+      "bytes": 10761,
+      "sha256": "c8d4f86dd0a194fae3fe035d8bd3148f15b71973a55f7e8cd37f4b93876d44de"
+    },
+    {
+      "path": "tests/legacy-ru/baseline_analysis.md",
+      "bytes": 3350,
+      "sha256": "3c53d426a9d09dd2285a7dbb484e9fa35d76ad2145e792c7f68a514667b4bf02"
+    },
+    {
+      "path": "tests/legacy-ru/baseline_prompts.md",
+      "bytes": 4329,
+      "sha256": "1afff92b2e38d94f8611570cedcebd50986adfa11075c4a5efcedd10923c6a1d"
+    },
+    {
+      "path": "tests/legacy-ru/comparison_v1.md",
+      "bytes": 12260,
+      "sha256": "ca4b462a32f6194a4e51ab60791ed99ae651b8a73a46a00b979515cb03ba7eca"
+    },
+    {
+      "path": "tests/legacy-ru/composition_baseline.md",
+      "bytes": 11574,
+      "sha256": "1e5821e703197de3f659ebf184ff8b7979b47bc26d9ae3a65f19dbbc85722a4f"
+    },
+    {
+      "path": "tests/legacy-ru/COMPOSITION_PROMPTS_FROZEN.md",
+      "bytes": 10864,
+      "sha256": "d4cbd86779b5122c777fda97321b7b4b36ca50449b8a41e0bdd51794c202839e"
+    },
+    {
+      "path": "tests/legacy-ru/COMPOSITION_REVIEW_PROTOCOL.md",
+      "bytes": 7578,
+      "sha256": "731cdacaddf94b126abe1482ab08eea47a93cc37008475c6f2f6ca94c7cba2e4"
+    },
+    {
+      "path": "tests/legacy-ru/composition_with_skill_v1.md",
+      "bytes": 12081,
+      "sha256": "e6b723894cb5a2944f79e9bd6a6f8fbaf4ebc5b445fc487fb206eace40c22d6d"
+    },
+    {
+      "path": "tests/legacy-ru/EVALUATION_RU.md",
+      "bytes": 10511,
+      "sha256": "45e55a100fb26823d32b0f9f2d0c49904de070d0c0f065fc84904cc60fd8da3f"
+    },
+    {
+      "path": "tests/legacy-ru/instruction_snapshots/v1/skills/write-clear-russian/agents/openai.yaml",
+      "bytes": 364,
+      "sha256": "3d8cd3b371b791ada42a9f6f83bd2f0a68ef8e4e48c9c13ab202874a514ec4f3"
+    },
+    {
+      "path": "tests/legacy-ru/instruction_snapshots/v1/skills/write-clear-russian/references/examples.md",
+      "bytes": 6114,
+      "sha256": "8637f5e33c29b6488c199e1f485d432862aae07fd1add65af49172749770487f"
+    },
+    {
+      "path": "tests/legacy-ru/instruction_snapshots/v1/skills/write-clear-russian/references/fidelity.md",
+      "bytes": 3931,
+      "sha256": "908c2a9b7a991abddc032962af608245a074a1a60b930e72f08e3d776f553744"
+    },
+    {
+      "path": "tests/legacy-ru/instruction_snapshots/v1/skills/write-clear-russian/references/reading.md",
+      "bytes": 14779,
+      "sha256": "2157dc7d4e69d1bf049756754861a0f18d9004a4cc81a3e1d064fbd3f8426ed7"
+    },
+    {
+      "path": "tests/legacy-ru/instruction_snapshots/v1/skills/write-clear-russian/references/techniques.md",
+      "bytes": 5533,
+      "sha256": "45b8ed6353cdfca00cfd97cd279838f816aed50ef434e98b6dd7a11399ad74f9"
+    },
+    {
+      "path": "tests/legacy-ru/instruction_snapshots/v1/skills/write-clear-russian/SKILL.md",
+      "bytes": 7330,
+      "sha256": "4913cbd4b15648772299c0552269a0938f2aa4629f19d034d593aac348bc9563"
+    },
+    {
+      "path": "tests/legacy-ru/instruction_snapshots/v2/skills/write-clear-russian/agents/openai.yaml",
+      "bytes": 364,
+      "sha256": "3d8cd3b371b791ada42a9f6f83bd2f0a68ef8e4e48c9c13ab202874a514ec4f3"
+    },
+    {
+      "path": "tests/legacy-ru/instruction_snapshots/v2/skills/write-clear-russian/references/examples.md",
+      "bytes": 6114,
+      "sha256": "8637f5e33c29b6488c199e1f485d432862aae07fd1add65af49172749770487f"
+    },
+    {
+      "path": "tests/legacy-ru/instruction_snapshots/v2/skills/write-clear-russian/references/fidelity.md",
+      "bytes": 4574,
+      "sha256": "de5659f4aec6c7a59907104360ad2854b0040e47a23bbcb27d4c498e874d1dd3"
+    },
+    {
+      "path": "tests/legacy-ru/instruction_snapshots/v2/skills/write-clear-russian/references/reading.md",
+      "bytes": 14779,
+      "sha256": "2157dc7d4e69d1bf049756754861a0f18d9004a4cc81a3e1d064fbd3f8426ed7"
+    },
+    {
+      "path": "tests/legacy-ru/instruction_snapshots/v2/skills/write-clear-russian/references/techniques.md",
+      "bytes": 5533,
+      "sha256": "45b8ed6353cdfca00cfd97cd279838f816aed50ef434e98b6dd7a11399ad74f9"
+    },
+    {
+      "path": "tests/legacy-ru/instruction_snapshots/v2/skills/write-clear-russian/SKILL.md",
+      "bytes": 8053,
+      "sha256": "6dec522afe376fb264b786ab39a2ee1e4a10449bf544f51fdd18106c0cf5c4fb"
+    },
+    {
+      "path": "tests/legacy-ru/README_RU.md",
+      "bytes": 2351,
+      "sha256": "ef0846e045be83b3b9b43f56a5edc9ad182cd5dfee78fc8b9b9e4fd4f66fab55"
+    },
+    {
+      "path": "tests/legacy-ru/regression_with_skill_v2.md",
+      "bytes": 8649,
+      "sha256": "9d0770ee2f21878aebb8e43e80503194ba1e89aa7b497c899dbfa3fdfc2ddc54"
+    },
+    {
+      "path": "tests/legacy-ru/RELEASE_REVIEW_V2_RU.md",
+      "bytes": 9340,
+      "sha256": "4162f9c18934b193568e9820dc83b27de9ee83167faccf438874226d98294b0e"
+    },
+    {
+      "path": "tests/legacy-ru/rubric.md",
+      "bytes": 3523,
+      "sha256": "1a933bd7565f5ca7bf90c84ca73e301e0db664c6456c23d13421fed3390c75cd"
+    },
+    {
+      "path": "tests/legacy-ru/targeted_baseline.md",
+      "bytes": 3637,
+      "sha256": "54eb9d958e5e954c7bc5b0acbf7f6987f22af769447c88fc9b256dceee95487c"
+    },
+    {
+      "path": "tests/legacy-ru/TARGETED_PROMPTS_FROZEN.md",
+      "bytes": 3602,
+      "sha256": "847b5f485f8e1f93f7140834fd7295d7b0edfd3b505eb7d83572d23e023e2fff"
+    },
+    {
+      "path": "tests/legacy-ru/targeted_with_skill_v2.md",
+      "bytes": 3456,
+      "sha256": "8709307b478568453536932dced2cf9194c5c92e296d6f89c584f21342013fcf"
+    },
+    {
+      "path": "tests/legacy-ru/treatment_snapshot.sha256",
+      "bytes": 859,
+      "sha256": "254b4992afc0bd6116a3d7a7022bb80d8933d0d4821f13a5076d586435138d8f"
+    },
+    {
+      "path": "tests/legacy-ru/treatment_v2_snapshot.sha256",
+      "bytes": 859,
+      "sha256": "3d16e0502c4c8dc0d3894619bf822592a1885564bbf85cc7153ab570699915e2"
+    },
+    {
+      "path": "tests/legacy-ru/v2_revision_evidence.md",
+      "bytes": 3921,
+      "sha256": "3f11b8376cb190f53911879cf633e9b70f325cf035511a01688e4fea1c001e1a"
+    },
+    {
+      "path": "tests/legacy-ru/with_skill.md",
+      "bytes": 11013,
+      "sha256": "3b7a845d5a6a9b00d17645bff61fb47bc9f4f3dd74d9cbe45390893ad7b6e548"
+    },
+    {
+      "path": "tests/PROMPTS_FROZEN.md",
+      "bytes": 2880,
+      "sha256": "47702fe84dc96ca5bc393ad2a4544e6307206db3006f869fae8ef7d8d1eeea26"
+    },
+    {
+      "path": "tests/RUBRIC_SEPARATE.md",
+      "bytes": 2223,
+      "sha256": "4294e0bd0576d84adb43eb16669193ef61633e28364080fa04a8e8e9e9ca026c"
+    },
+    {
+      "path": "validation/ENTRYPOINT_CHANGES.diff",
+      "bytes": 15132,
+      "sha256": "f72122f6d79058208a54af24431036b3b3cecdae16a6c3bec69e330a961a5855"
+    },
+    {
+      "path": "validation/PC_LICENSE_REPAIR.json",
+      "bytes": 947,
+      "sha256": "851e6e7ad110a20a9c9dcab5ccde5e2ce00bb2944a4f9a7d92c768990dc57d53"
+    },
+    {
+      "path": "validation/plugin.txt",
+      "bytes": 85,
+      "sha256": "305d73deafa00774df6e4b6ad4bd9fa628f62675ba453bde3d20a7f50fa28d6f"
+    },
+    {
+      "path": "validation/skills.txt",
+      "bytes": 189,
+      "sha256": "ab19e63e45919608755db36204f5e36a0ecd7d181089d63e729f5bf351a2ede4"
+    },
+    {
+      "path": "validation/structural.json",
+      "bytes": 459,
+      "sha256": "285ebb474cef546ec476eb7fed0f1bb3daee6c610db51ebebbe924815a9b4c02"
+    }
+  ]
+}

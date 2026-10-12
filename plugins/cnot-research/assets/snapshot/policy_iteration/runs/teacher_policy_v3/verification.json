@@ -1,0 +1,16 @@
+{
+  "source_hashes_match": true,
+  "verified_programs": true,
+  "replay_validation_overlap": 0,
+  "replay_benchmark_overlap": 0,
+  "rounds": [
+    {
+      "file": "iteration_0.json",
+      "improvements": 3
+    },
+    {
+      "file": "iteration_1.json",
+      "improvements": 1
+    }
+  ]
+}

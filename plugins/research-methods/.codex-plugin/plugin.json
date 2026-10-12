@@ -1,0 +1,18 @@
+{
+  "name": "research-methods",
+  "version": "0.1.0",
+  "description": "Научное мышление: выбор исследовательского пути, логика, ТРИЗ, Lean и рекурсивное планирование решений.",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Научное мышление",
+    "shortDescription": "Методы исследования и проверки решений",
+    "longDescription": "Пять навыков научного мышления: choose-research-path, logika, triz, work-with-lean и superposition-planning. BFS и beam search остаются отдельными специализациями.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Помоги выбрать подходящий метод научного мышления для моей задачи."
+  }
+}

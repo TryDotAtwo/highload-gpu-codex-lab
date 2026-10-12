@@ -1,0 +1,137 @@
+[
+  {
+    "family": "stage17_BB_HGP",
+    "case": "bb_108_8_10",
+    "n": 108,
+    "before": 572,
+    "after": 572,
+    "hamming_after": 572,
+    "seconds": 0.052602000010665506,
+    "stats": {
+      "calls": 2,
+      "replacements": 0,
+      "cache_entries": 2,
+      "verified_full_matrix": true
+    }
+  },
+  {
+    "family": "stage17_BB_HGP",
+    "case": "bb_144_12_12",
+    "n": 144,
+    "before": 1060,
+    "after": 1057,
+    "hamming_after": 1057,
+    "seconds": 0.2902202999975998,
+    "stats": {
+      "calls": 2,
+      "replacements": 2,
+      "cache_entries": 2,
+      "verified_full_matrix": true
+    }
+  },
+  {
+    "family": "stage17_BB_HGP",
+    "case": "bb_72_12_6",
+    "n": 72,
+    "before": 350,
+    "after": 350,
+    "hamming_after": 350,
+    "seconds": 0.027712300012353808,
+    "stats": {
+      "calls": 0,
+      "replacements": 0,
+      "cache_entries": 0,
+      "verified_full_matrix": true
+    }
+  },
+  {
+    "family": "stage17_BB_HGP",
+    "case": "bb_90_8_10",
+    "n": 90,
+    "before": 426,
+    "after": 421,
+    "hamming_after": 421,
+    "seconds": 0.08579730000928976,
+    "stats": {
+      "calls": 3,
+      "replacements": 3,
+      "cache_entries": 3,
+      "verified_full_matrix": true
+    }
+  },
+  {
+    "family": "stage17_BB_HGP",
+    "case": "hgp_13_1",
+    "n": 13,
+    "before": 19,
+    "after": 19,
+    "hamming_after": 19,
+    "seconds": 0.00031599999056197703,
+    "stats": {
+      "calls": 0,
+      "replacements": 0,
+      "cache_entries": 0,
+      "verified_full_matrix": true
+    }
+  },
+  {
+    "family": "stage17_BB_HGP",
+    "case": "hgp_25_1",
+    "n": 25,
+    "before": 41,
+    "after": 41,
+    "hamming_after": 41,
+    "seconds": 0.000926099979551509,
+    "stats": {
+      "calls": 0,
+      "replacements": 0,
+      "cache_entries": 0,
+      "verified_full_matrix": true
+    }
+  },
+  {
+    "family": "stage17_BB_HGP",
+    "case": "hgp_34_10",
+    "n": 34,
+    "before": 68,
+    "after": 68,
+    "hamming_after": 68,
+    "seconds": 0.002402699989033863,
+    "stats": {
+      "calls": 0,
+      "replacements": 0,
+      "cache_entries": 0,
+      "verified_full_matrix": true
+    }
+  },
+  {
+    "family": "stage17_BB_HGP",
+    "case": "hgp_45_9",
+    "n": 45,
+    "before": 93,
+    "after": 93,
+    "hamming_after": 93,
+    "seconds": 0.0033463999861851335,
+    "stats": {
+      "calls": 0,
+      "replacements": 0,
+      "cache_entries": 0,
+      "verified_full_matrix": true
+    }
+  },
+  {
+    "family": "stage17_BB_HGP",
+    "case": "hgp_58_16",
+    "n": 58,
+    "before": 149,
+    "after": 149,
+    "hamming_after": 149,
+    "seconds": 0.008760600001551211,
+    "stats": {
+      "calls": 0,
+      "replacements": 0,
+      "cache_entries": 0,
+      "verified_full_matrix": true
+    }
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "name": "scientific-writing",
+  "version": "0.2.0",
+  "description": "Clear explanations across languages and source-bound scientific writing with Prism.",
+  "author": {
+    "name": "Prepared for Ivan"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Scientific Writing",
+    "shortDescription": "Clear explanations, rigorous manuscripts, and Prism workflow",
+    "longDescription": "Four coordinated skills: language-neutral explanatory writing, real Prism project collaboration, visual scientific manuscripts, and English/Russian technical editing.",
+    "developerName": "Prepared for Ivan",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Prepare or revise this manuscript with clear explanations, preserved claims, a source-bound Prism review, and verified figures and pages."
+  }
+}

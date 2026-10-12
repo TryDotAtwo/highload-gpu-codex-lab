@@ -1,0 +1,18 @@
+{
+  "seed": 2700,
+  "steps_per_round": 640,
+  "rounds": 1,
+  "model": {
+    "d": 128,
+    "pair_d": 32,
+    "blocks": 6,
+    "heads": 4,
+    "ffn": 256,
+    "bound_residual": "shifted_softplus"
+  },
+  "warm_checkpoint": "structured_field/runs/replay_basis_seed1700_v4/last.pt",
+  "source": "own_synthetic_basis",
+  "wall_clock_cutoff": null,
+  "removed_overlap": 6,
+  "dataset_seconds": 4.062343800003873
+}

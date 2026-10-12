@@ -5,16 +5,148 @@
   },
   "plugins": [
     {
-      "name": "molab",
+      "name": "beam-search",
       "source": {
         "source": "local",
-        "path": "./plugins/molab"
+        "path": "./plugins/beam-search"
       },
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
+    },
+    {
+      "name": "beautiful-science",
+      "source": {
+        "source": "local",
+        "path": "./plugins/beautiful-science"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "bfs",
+      "source": {
+        "source": "local",
+        "path": "./plugins/bfs"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "cnot-research",
+      "source": {
+        "source": "local",
+        "path": "./plugins/cnot-research"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "compute-platforms",
+      "source": {
+        "source": "local",
+        "path": "./plugins/compute-platforms"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "docker",
+      "source": {
+        "source": "local",
+        "path": "./plugins/docker"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "docker-workflows",
+      "source": {
+        "source": "local",
+        "path": "./plugins/docker-workflows"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "gpu-architecture",
+      "source": {
+        "source": "local",
+        "path": "./plugins/gpu-architecture"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "gpu-beam-search",
+      "source": {
+        "source": "local",
+        "path": "./plugins/gpu-beam-search"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "gpu-engineering",
+      "source": {
+        "source": "local",
+        "path": "./plugins/gpu-engineering"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "gpu-neural-inference",
+      "source": {
+        "source": "local",
+        "path": "./plugins/gpu-neural-inference"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "highload-gpu",
+      "source": {
+        "source": "local",
+        "path": "./plugins/highload-gpu"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
     },
     {
       "name": "kaggle",
@@ -29,10 +161,10 @@
       "category": "Productivity"
     },
     {
-      "name": "highload-gpu",
+      "name": "lean",
       "source": {
         "source": "local",
-        "path": "./plugins/highload-gpu"
+        "path": "./plugins/lean"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -41,10 +173,94 @@
       "category": "Productivity"
     },
     {
-      "name": "docker",
+      "name": "molab",
       "source": {
         "source": "local",
-        "path": "./plugins/docker"
+        "path": "./plugins/molab"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "mukha",
+      "source": {
+        "source": "local",
+        "path": "./plugins/mukha"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "research-methods",
+      "source": {
+        "source": "local",
+        "path": "./plugins/research-methods"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "scientific-writing",
+      "source": {
+        "source": "local",
+        "path": "./plugins/scientific-writing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "tpu-builder",
+      "source": {
+        "source": "local",
+        "path": "./plugins/tpu-builder"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "tpu-coding",
+      "source": {
+        "source": "local",
+        "path": "./plugins/tpu-coding"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "triz",
+      "source": {
+        "source": "local",
+        "path": "./plugins/triz"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "write-visual-research-papers",
+      "source": {
+        "source": "local",
+        "path": "./plugins/write-visual-research-papers"
       },
       "policy": {
         "installation": "AVAILABLE",

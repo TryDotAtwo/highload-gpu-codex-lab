@@ -1,6 +1,6 @@
 ---
 name: write-dockerfiles
-description: Use when creating or editing Dockerfiles, BuildKit builds, multi-stage images, cache, .dockerignore, or CUDA build images.
+description: Use when writing Dockerfiles.
 ---
 
 # Write Dockerfiles

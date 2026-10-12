@@ -1,0 +1,9 @@
+interface:
+  display_name: validate inference quality
+  short_description: Use when comparing FP32, FP16, FP8, NVFP4, MXFP4, or fused inference
+    paths for numerical accuracy, ranking stability, model decisions, or application-level
+    quality.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,9 @@
+interface:
+  display_name: design gpu beam pipelines
+  short_description: Use when designing GPU frontier expansion, scorer-to-selection
+    flow, accumulator/ring ownership, deduplication, top-k, multi-rank exchange, or
+    persistent beam-search stages.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

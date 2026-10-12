@@ -1,0 +1,9 @@
+interface:
+  display_name: gpu neural inference
+  short_description: Use when optimizing, benchmarking, quantizing, exporting, or
+    validating MLP or Transformer inference on NVIDIA GPUs, including fixed-shape
+    scorer models and Blackwell low-precision paths.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

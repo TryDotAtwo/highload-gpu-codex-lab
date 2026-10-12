@@ -1,0 +1,15 @@
+{
+ "schema_version":1,
+ "grading":"Manual, evidence-based pass/fail/not-assessable per criterion; no sum or beauty score. Unknown facts must stay unknown.",
+ "global":["Names a decision supported by supplied evidence rather than aesthetic authority", "Separates claim validity from proposed work; does not imply new experiments or audits were performed", "Names a discriminating next check and an outcome-dependent reassessment condition; budget not arbitrary", "Preserves exact scope, uncertainty, and useful surviving components"],
+ "cases":{
+ "hard_breakthrough":["Preserves H as worthwhile despite length and past effort", "Does not upgrade 82 certificates or symmetric n<=9 to full proof", "Targets remaining obligations or arbitrary-to-symmetric reduction with certificate/specification audit"],
+ "beautiful_false_model":["Rejects field-invariance claim within calibrated tested conditions", "Distinguishes rejecting prediction from proving a unique replacement", "Treats per-setting constants as new assumptions and tests a changed model prospectively"],
+ "hidden_exponential_cost":["Counts construction/storage and amortization at target n", "Rejects target-scale general speedup, allows bounded niche", "Does not spend target-scale enumeration to rediscover an analytical obstruction"],
+ "benchmark_loop":["Stops unchanged repetition as a route to desired 5% benefit", "Does not extend or terminate by invented run-count/time cap", "Separates measurement validity from substantive performance; a new test addresses a named confound or mechanism"],
+ "toy_to_general":["Retains tree proof and finite enumerated scope without universal claim", "Identifies induction-hypothesis/connectivity gap", "Chooses minimal counterexample or a valid strengthened invariant; distinguishes invalid proof from false conjecture"],
+ "fruitful_empirical":["Continues validated predictive path despite complexity", "Limits claim to prediction, studied conditions and design", "Uses shift/leakage/calibration or ablation checks rather than demanding elegance as admission condition"],
+ "representation_invariance":["Does not count notation change as new empirical/logical support", "Measures full conversion-solve-backconversion/constraints cost", "Preserves representation-specific usefulness without demanding same convenience in every representation"],
+ "indistinguishable_models":["States structural non-identifiability at equal rates", "Does not infer one mechanism from a one-exponential fit", "Changes observation/intervention or parks identification with a reason; noise-only extra batches not decisive at exact equality"]
+ }
+}

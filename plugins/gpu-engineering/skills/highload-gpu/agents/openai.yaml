@@ -1,0 +1,10 @@
+interface:
+  display_name: highload gpu
+  short_description: Use when solving general CUDA, GPU performance, GPU profiling,
+    multi-GPU, NVIDIA-library, throughput-accounting, or Blackwell SM120 hardware
+    tasks. Domain-specific beam-search and neural-inference work belongs in dedicated
+    plugins.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

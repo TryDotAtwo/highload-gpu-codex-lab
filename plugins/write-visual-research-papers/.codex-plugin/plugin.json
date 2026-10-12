@@ -1,0 +1,30 @@
+{
+  "name": "write-visual-research-papers",
+  "version": "1.0.1",
+  "description": "Rigorous visual-first scientific manuscripts with explicit proof boundaries, HPC scaling, and rendered figure QA.",
+  "keywords": [
+    "scientific-writing",
+    "latex",
+    "research",
+    "proofs",
+    "figure-qa",
+    "hpc"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Visual Research Papers",
+    "shortDescription": "Rigorous papers with clear figures and evidence",
+    "longDescription": "A knowledge-only writing skill for concise, visually explained scientific papers. Covers claim dependencies, mathematical and computational evidence, conditional formalization, time and memory scaling, figure-by-figure QA, and reproducible LaTeX/Prism/PDF delivery.",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "Turn this research into a rigorous, visually explained paper.",
+      "Audit the proof claims, evidence boundaries, and figures.",
+      "Explain time and memory scaling with explicit assumptions."
+    ],
+    "developerName": "Personal research tools"
+  },
+  "author": {
+    "name": "Personal research tools"
+  }
+}
